@@ -8,11 +8,6 @@ import polars as pl
 import duckdb as db
 from fonctions_graph import make_donut
 import altair as alt
-from style import init_pages
-
-# from streamlit_extras.stylable_container import stylable_container
-
-# init_pages()
 
 st.set_page_config(
     page_title="Dashboard",
@@ -3617,7 +3612,7 @@ def Graphe_attentes(arcom, var_obj, level):
         .mark_rect()
         .encode(
             x=alt.X("Ref:N", title=None),
-            y=alt.Y("Attente:N", title=None, sort=alt.EncodingSortField(field="% Réponses", order="descending")),
+            y=alt.Y("Attente:N", title=None),
             color=alt.Color("% Réponses:Q", scale=alt.Scale(scheme="spectral")),
             tooltip=["Attente", "Ref", "% Réponses"],
         )
