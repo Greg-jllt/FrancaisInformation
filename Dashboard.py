@@ -3612,7 +3612,7 @@ def Graphe_attentes(arcom, var_obj, level):
         .mark_rect()
         .encode(
             x=alt.X("Ref:N", title=None),
-            y=alt.Y("Attente:N", title=None),
+            y=alt.Y("Attente:N", title=None, sort=alt.EncodingSortField(field="% Réponses", order="descending")),
             color=alt.Color("% Réponses:Q", scale=alt.Scale(scheme="spectral")),
             tooltip=["Attente", "Ref", "% Réponses"],
         )
