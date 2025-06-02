@@ -1,0 +1,1103 @@
+HEADER TEXT,NAME,TYPE,CODE,VALUE,FORMULA,BASE,GROUPID,FR:L
+TEXT,LEVEL_A,TITLE,,,,,,Records
+TEXT,RECORD,TITLE,,,,,,record: Record number
+TEXT,UUID,TITLE,,,,,,uuid: Participant identifier
+TEXT,CIBLE,TITLE,,,,,,cible: Cible
+TEXT,CIBLE,LABEL,1.0,,,,,France métropolitaine
+TEXT,CIBLE,LABEL,2.0,,,,,DOM TOM
+TEXT,CIBLE,LABEL,3.0,,,,,DOM - 2
+TEXT,SOURCE_BASE_R1,TITLE,,,,,,Source
+TEXT,SOURCE_BASE_R1,LABEL,1.0,,,-1.0,1.0,CATI
+TEXT,SOURCE_BASE_R1,LABEL,2.0,,,,1.0,CAWI Métropole
+TEXT,SOURCE_BASE_R1,LABEL,3.0,,,,1.0,CAWI Outre-mer
+TEXT,POIDS03,TITLE,,,,,,Redressement 20240105
+TEXT,INTER,TITLE,,,,,,INTER
+TEXT,CONTACT,TITLE,,,,,,CONTACT
+TEXT,CONTACT,LABEL,1.0,,,,,Non réponse
+TEXT,CONTACT,LABEL,2.0,,,,,&nbsp
+TEXT,RS1_R,TITLE,,,,,,RS1 Genre
+TEXT,RS1_R,LABEL,1.0,,,,,Un homme
+TEXT,RS1_R,LABEL,2.0,,,,,Une femme
+TEXT,RS1_R,LABEL,3.0,,,,,Non binaire
+TEXT,RS2C_RECODE_AG_R,TITLE,,,,,,RS2c / RECODE_AGE Age
+TEXT,RS2C_RECODE_AG_R,LABEL,1.0,,,0.0,1.0,15-17 ans
+TEXT,RS2C_RECODE_AG_R,LABEL,2.0,,,0.0,1.0,18-24 ans
+TEXT,RS2C_RECODE_AG_R,LABEL,3.0,,,0.0,1.0,25-34 ans
+TEXT,RS2C_RECODE_AG_R,LABEL,4.0,,,0.0,1.0,35-44 ans
+TEXT,RS2C_RECODE_AG_R,LABEL,5.0,,,0.0,1.0,45-59 ans
+TEXT,RS2C_RECODE_AG_R,LABEL,6.0,,,0.0,1.0,60-69 ans
+TEXT,RS2C_RECODE_AG_R,LABEL,7.0,,,0.0,1.0,70 ans et +
+TEXT,RS3_R,TITLE,,,,,,RS3 Situation professionnelle
+TEXT,RS3_R,LABEL,1.0,,,,,"Actif, active (ayant un emploi, y compris en congés ou en arrêt)"
+TEXT,RS3_R,LABEL,2.0,,,,,"Chômeur, chômeuse ayant déjà travaillé"
+TEXT,RS3_R,LABEL,3.0,,,,,"Chômeur, chômeuse à la recherche d'un premier emploi"
+TEXT,RS3_R,LABEL,4.0,,,,,Etudiant·e
+TEXT,RS3_R,LABEL,5.0,,,,,Personne au foyer
+TEXT,RS3_R,LABEL,6.0,,,,,Retraité·e
+TEXT,RS3_R,LABEL,7.0,,,,,"Autre inactif, inactive (invalide, rentier…)"
+TEXT,RS3_R,LABEL,8.0,,,,,Vous ne savez pas / vous ne souhaitez pas répondre
+TEXT,RS4_R,TITLE,,,,,,RS4 Profession - Base : RS3 = 1 ou 2
+TEXT,RS4_R,LABEL,1.0,,,,,"Agriculteur, agricultrice, exploitant·e"
+TEXT,RS4_R,LABEL,2.0,,,,,"Artisan, commerçant, chef d'entreprise"
+TEXT,RS4_R,LABEL,3.0,,,,,"Cadre, profession libérale, profession intellectuelle ou artistique"
+TEXT,RS4_R,LABEL,4.0,,,,,"Profession intermédiaire, technicien·ne, agent de maitrise"
+TEXT,RS4_R,LABEL,5.0,,,,,Employé·e
+TEXT,RS4_R,LABEL,6.0,,,,,"Ouvrier, ouvrière"
+TEXT,RS4_R,LABEL,7.0,,,,,Je ne sais pas / ne souhaite pas répondre
+TEXT,CSPIND_R,TITLE,,,,,,CSPIND / RECODE_CSPIND Recode CSP
+TEXT,CSPIND_R,LABEL,1.0,,,,,CSP+
+TEXT,CSPIND_R,LABEL,2.0,,,,,CSP-
+TEXT,CSPIND_R,LABEL,3.0,,,,,INACTIVE
+TEXT,CSPIND_R,LABEL,4.0,,,,,NSP
+TEXT,RS5_R,TITLE,,,,,,RS5 Niveau d'étude
+TEXT,RS5_R,LABEL,1.0,,,,,Niveau primaire
+TEXT,RS5_R,LABEL,2.0,,,,,Secondaire de la 6ème à la 3ème
+TEXT,RS5_R,LABEL,3.0,,,,,Secondaire de la 2nd à la terminale
+TEXT,RS5_R,LABEL,4.0,,,,,"Technique court (CAP, BEP)"
+TEXT,RS5_R,LABEL,5.0,,,,,"Baccalauréat, Baccalauréat professionnel, brevet professionnel"
+TEXT,RS5_R,LABEL,6.0,,,,,"Technique supérieur (BTS, DUT)"
+TEXT,RS5_R,LABEL,7.0,,,,,"Supérieur 1er cycle (DEUG, DEUST, Licence)"
+TEXT,RS5_R,LABEL,8.0,,,,,"Supérieur 2nd cycle (DEA, DESS, Maitrise, Master)"
+TEXT,RS5_R,LABEL,9.0,,,,,Supérieur 3ème cycle (Doctorat)
+TEXT,UDA9_R,TITLE,,,,,,UDA9 Région en 9
+TEXT,UDA9_R,LABEL,1.0,,,0.0,1.0,Région Parisienne
+TEXT,UDA9_R,LABEL,2.0,,,0.0,1.0,Bassin Parisien Ouest
+TEXT,UDA9_R,LABEL,3.0,,,0.0,1.0,Ouest
+TEXT,UDA9_R,LABEL,4.0,,,0.0,1.0,Nord
+TEXT,UDA9_R,LABEL,5.0,,,0.0,1.0,Est
+TEXT,UDA9_R,LABEL,6.0,,,0.0,1.0,Bassin Parisien Est
+TEXT,UDA9_R,LABEL,7.0,,,0.0,1.0,Sud Ouest
+TEXT,UDA9_R,LABEL,8.0,,,0.0,1.0,Sud Est
+TEXT,UDA9_R,LABEL,9.0,,,0.0,1.0,Mediterranée
+TEXT,UDA9_R,LABEL,10.0,,,0.0,1.0,DOM
+TEXT,UDA5_R,TITLE,,,,,,UDA5 Régions en 5
+TEXT,UDA5_R,LABEL,1.0,,,,,Région Parisienne
+TEXT,UDA5_R,LABEL,2.0,,,,,Ouest
+TEXT,UDA5_R,LABEL,3.0,,,,,Nord Est
+TEXT,UDA5_R,LABEL,4.0,,,,,Sud Ouest
+TEXT,UDA5_R,LABEL,5.0,,,,,Sud Est
+TEXT,UDA5_R,LABEL,6.0,,,,,DOM
+TEXT,DPT_DOM_R,TITLE,,,,,,DPT_DOM Territoire d'Outre-mer
+TEXT,DPT_DOM_R,LABEL,1.0,,,,,971 - GUADELOUPE
+TEXT,DPT_DOM_R,LABEL,2.0,,,,,973 - GUYANE
+TEXT,DPT_DOM_R,LABEL,3.0,,,,,974 - LA REUNION
+TEXT,DPT_DOM_R,LABEL,4.0,,,,,972 - MARTINIQUE
+TEXT,DPT_DOM_R,LABEL,5.0,,,,,976 - MAYOTTE
+TEXT,DPT_DOM_R,LABEL,6.0,,,,,988 - NOUVELLE CALEDONIE
+TEXT,DPT_DOM_R,LABEL,7.0,,,,,987 - POLYNESIE FRANÇAISE
+TEXT,DPT_DOM_R,LABEL,8.0,,,,,975 - SAINT PIERRE ET MIQUELON
+TEXT,DPT_DOM_R,LABEL,9.0,,,,,986 - WALLIS ET FUTUNA
+TEXT,DPT_DOM_R,LABEL,10.0,,,,,977 - SAINT BARTHELEMY
+TEXT,DPT_DOM_R,LABEL,11.0,,,,,978 - SAINT MARTIN
+TEXT,DPT_DOM_R,LABEL,12.0,,,,,984 - TERRES AUSTRALES ET ANTARCTIQUES FRANCAISES
+TEXT,DPT_DOM_R,LABEL,13.0,,,,,Autre département d'outre-mer
+TEXT,CC_R,TITLE,,,,,,CC /  Taille agglo
+TEXT,CC_R,LABEL,1.0,,,0.0,1.0,Commune rurale
+TEXT,CC_R,LABEL,2.0,,,0.0,1.0,Entre 2.000 à moins de 20.000 hab.
+TEXT,CC_R,LABEL,3.0,,,0.0,1.0,Entre 20.000 à moins de 100.000 hab.
+TEXT,CC_R,LABEL,4.0,,,0.0,1.0,100.000 hab. et plus
+TEXT,CC_R,LABEL,5.0,,,0.0,1.0,Agglomération parisienne
+TEXT,CC_R,LABEL,6.0,,,0.0,1.0,TOM
+TEXT,RS7_R,TITLE,,,,,,RS7 Nombre de personnes dans le foyer
+TEXT,RS7_R,LABEL,1.0,,,,1.0,1 personne
+TEXT,RS7_R,LABEL,2.0,,,,1.0,2 personnes
+TEXT,RS7_R,LABEL,3.0,,,,1.0,3 personnes
+TEXT,RS7_R,LABEL,4.0,,,,1.0,4 personnes
+TEXT,RS7_R,LABEL,5.0,,,,1.0,5 personnes
+TEXT,RS7_R,LABEL,6.0,,,,1.0,6 personnes et plus
+TEXT,RS14_R,TITLE,,,,,,RS14 Revenu mensuel net du foyer
+TEXT,RS14_R,LABEL,1.0,,,,,Moins de 1 500 € net
+TEXT,RS14_R,LABEL,2.0,,,,,Entre 1500 et 3000 € net
+TEXT,RS14_R,LABEL,3.0,,,,,Entre 3000 et 4500 € net
+TEXT,RS14_R,LABEL,4.0,,,,,Entre 4500 et 7500 € net
+TEXT,RS14_R,LABEL,5.0,,,,,7 500 € net et plus
+TEXT,RS14_R,LABEL,6.0,,,,,Ne souhaite pas répondre
+TEXT,ILLECTRO_R,TITLE,,,,,,ILLECTRO Dernière utilisation d'internet  - Base : Cati
+TEXT,ILLECTRO_R,LABEL,1.0,,,,,Au cours des 3 derniers mois
+TEXT,ILLECTRO_R,LABEL,2.0,,,,,Entre 3 mois et 1 an
+TEXT,ILLECTRO_R,LABEL,3.0,,,,,Il y a plus d'un an
+TEXT,ILLECTRO_R,LABEL,4.0,,,,,Vous n'avez jamais utilisé Internet
+TEXT,ILLECTRO_R,LABEL,5.0,,,,,Il y a plus de 3 mois ou jamais
+TEXT,RS15_R,TITLE,,,,,,RS15 Fréquence d'utilisation d'internet
+TEXT,RS15_R,LABEL,1.0,,,,1.0,Plusieurs fois par jour
+TEXT,RS15_R,LABEL,2.0,,,,1.0,1 fois par jour ou presque
+TEXT,RS15_R,LABEL,3.0,,,,1.0,3 à 5 fois par semaine
+TEXT,RS15_R,LABEL,4.0,,,,1.0,1 à 2 fois par semaine
+TEXT,RS15_R,LABEL,5.0,,,,1.0,2 à 3 fois par mois
+TEXT,RS15_R,LABEL,6.0,,,,1.0,1 fois par mois
+TEXT,RS15_R,LABEL,7.0,,,,1.0,Moins souvent
+TEXT,FREQ_INTERNET_R,TITLE,,,,,,FREQ_INTERNET Fréquence d'utilisation d'internet (Recode)
+TEXT,FREQ_INTERNET_R,LABEL,1.0,,,,1.0,Plusieurs fois par jour
+TEXT,FREQ_INTERNET_R,LABEL,2.0,,,,2.0,1 fois par jour ou presque
+TEXT,FREQ_INTERNET_R,LABEL,3.0,,,,3.0,Moins souvent
+TEXT,RS16_R,TITLE,,,,,,RS16 Équipement média
+TEXT,RS16_R,LABEL,1.0,,,,,Un(e)
+TEXT,RS16_R,LABEL,2.0,,,,,Plusieurs
+TEXT,RS16_R,LABEL,3.0,,,,,Aucun(e)
+TEXT,RS16_R_COLUMNS,LABEL,1.0,,,,1.0,Un poste de télévision
+TEXT,RS16_R_COLUMNS,LABEL,2.0,,,,2.0,"Un poste de radio, une chaîne hifi"
+TEXT,RS16_R_COLUMNS,LABEL,3.0,,,,3.0,Un autoradio
+TEXT,RS16_R_COLUMNS,LABEL,4.0,,,,4.0,Un smartphone
+TEXT,RS16_R_COLUMNS,LABEL,5.0,,,,5.0,Un ordinateur fixe
+TEXT,RS16_R_COLUMNS,LABEL,6.0,,,,6.0,Un ordinateur portable
+TEXT,RS16_R_COLUMNS,LABEL,7.0,,,,7.0,Une tablette tactile
+TEXT,RS16_R_COLUMNS,LABEL,8.0,,,,8.0,La google Chromecast ou le firestick Amazon ou une Box Apple TV
+TEXT,RS16_R_COLUMNS,LABEL,9.0,,,,9.0,"Une enceinte connectée avec un assistant vocal (Google Home, Amazon Echo…)"
+TEXT,RS16_R_COLUMNS,LABEL,10.0,,,,10.0,"Un casque de réalité virtuelle, casque VR"
+TEXT,RS16_R_COLUMNS,LABEL,11.0,,,,11.0,Une montre connectée
+TEXT,RS16_R_COLUMNS,LABEL,12.0,,,,12.0,"Une console de jeux (Xbox, PlayStation, Switch…)"
+TEXT,RS16_R1,TITLE,,,,,,"RS16 Équipement média - Récap ""Un(e)"""
+TEXT,L_RS16_R1,LABEL,1.0,,,,1.0,Un poste de télévision
+TEXT,L_RS16_R1,LABEL,2.0,,,,2.0,"Un poste de radio, une chaîne hifi"
+TEXT,L_RS16_R1,LABEL,3.0,,,,3.0,Un autoradio
+TEXT,L_RS16_R1,LABEL,4.0,,,,4.0,Un smartphone
+TEXT,L_RS16_R1,LABEL,5.0,,,,5.0,Un ordinateur fixe
+TEXT,L_RS16_R1,LABEL,6.0,,,,6.0,Un ordinateur portable
+TEXT,L_RS16_R1,LABEL,7.0,,,,7.0,Une tablette tactile
+TEXT,L_RS16_R1,LABEL,8.0,,,,8.0,La google Chromecast ou le firestick Amazon ou une Box Apple TV
+TEXT,L_RS16_R1,LABEL,9.0,,,,9.0,"Une enceinte connectée avec un assistant vocal (Google Home, Amazon Echo…)"
+TEXT,L_RS16_R1,LABEL,10.0,,,,10.0,"Un casque de réalité virtuelle, casque VR"
+TEXT,L_RS16_R1,LABEL,11.0,,,,11.0,Une montre connectée
+TEXT,L_RS16_R1,LABEL,12.0,,,,12.0,"Une console de jeux (Xbox, PlayStation, Switch…)"
+TEXT,L_RS16_R1,LABEL,13.0,,,,13.0,Aucun
+TEXT,RS16_R2,TITLE,,,,,,"RS16 Équipement média - Récap ""Plusieurs"""
+TEXT,RS16_R3,TITLE,,,,,,"RS16 Équipement média - Récap ""ST Au moins un(e)"""
+TEXT,INT1_R,TITLE,,,,,,"INT1 Intérêt global pour l'information ""Quel est votre niveau d’intérêt pour l’information en général, qu’elle porte sur la politique, l’international, la société, le sport, la culture ... ?"""
+TEXT,L_INT1_R,LABEL,1.0,,,,,Très intéressé·e
+TEXT,L_INT1_R,LABEL,2.0,,,,,Assez intéressé·e
+TEXT,L_INT1_R,LABEL,3.0,,,,,Peu intéressé·e
+TEXT,L_INT1_R,LABEL,4.0,,,,,Pas du tout intéressé·e
+TEXT,INT2_R,TITLE,,,,,,"INT2 Intérêt détaillé pour l'information ""Et de façon détaillée, merci de nous indiquer si vous êtes Très intéressé·e, Assez intéressé·e, Peu intéressé·e ou Pas du tout intéressé·e par les thématiques d’information suivantes :"""
+TEXT,C_INT2_R,LABEL,1.0,,,,1.0,Actualité internationale
+TEXT,C_INT2_R,LABEL,2.0,,,,2.0,Actualité nationale
+TEXT,C_INT2_R,LABEL,3.0,,,,3.0,Actualité locale / régionale
+TEXT,C_INT2_R,LABEL,4.0,,,,4.0,Politique
+TEXT,C_INT2_R,LABEL,5.0,,,,5.0,Économie
+TEXT,C_INT2_R,LABEL,6.0,,,,6.0,"Société (justice, emploi, faits divers…)"
+TEXT,C_INT2_R,LABEL,7.0,,,,7.0,"Environnement, climat, écologie"
+TEXT,C_INT2_R,LABEL,8.0,,,,8.0,"Santé, mode de vie, bien-être"
+TEXT,C_INT2_R,LABEL,9.0,,,,9.0,"Culture et divertissement (cinéma, livre, musique, spectacle, etc.)"
+TEXT,C_INT2_R,LABEL,10.0,,,,10.0,Sport
+TEXT,C_INT2_R,LABEL,11.0,,,,11.0,"People, vie des stars, interviews des célébrités"
+TEXT,C_INT2_R,LABEL,12.0,,,,12.0,Sciences et technologies
+TEXT,INT2_R1,TITLE,,,,,,"INT2 Intérêt détaillé pour l'information - Récap ""Très intéressé·e"""
+TEXT,L_INT2_R1,LABEL,1.0,,,,1.0,Actualité internationale
+TEXT,L_INT2_R1,LABEL,2.0,,,,2.0,Actualité nationale
+TEXT,L_INT2_R1,LABEL,3.0,,,,3.0,Actualité locale / régionale
+TEXT,L_INT2_R1,LABEL,4.0,,,,4.0,Politique
+TEXT,L_INT2_R1,LABEL,5.0,,,,5.0,Économie
+TEXT,L_INT2_R1,LABEL,6.0,,,,6.0,"Société (justice, emploi, faits divers…)"
+TEXT,L_INT2_R1,LABEL,7.0,,,,7.0,"Environnement, climat, écologie"
+TEXT,L_INT2_R1,LABEL,8.0,,,,8.0,"Santé, mode de vie, bien-être"
+TEXT,L_INT2_R1,LABEL,9.0,,,,9.0,"Culture et divertissement (cinéma, livre, musique, spectacle, etc.)"
+TEXT,L_INT2_R1,LABEL,10.0,,,,10.0,Sport
+TEXT,L_INT2_R1,LABEL,11.0,,,,11.0,"People, vie des stars, interviews des célébrités"
+TEXT,L_INT2_R1,LABEL,12.0,,,,12.0,Sciences et technologies
+TEXT,L_INT2_R1,LABEL,13.0,,,,13.0,Aucun
+TEXT,INT2_R2,TITLE,,,,,,"INT2 Intérêt détaillé pour l'information - Récap ""Assez intéressé·e"""
+TEXT,INT2_R3,TITLE,,,,,,"INT2 Intérêt détaillé pour l'information - Récap ""Peu intéressé·e"""
+TEXT,INT2_R4,TITLE,,,,,,"INT2 Intérêt détaillé pour l'information - Récap ""Pas du tout intéressé·e"""
+TEXT,INT2_R5,TITLE,,,,,,"INT2 Intérêt détaillé pour l'information - Récap ""ST Intéressé·e"""
+TEXT,INT2_R6,TITLE,,,,,,"INT2 Intérêt détaillé pour l'information - Récap ""ST Pas intéressé·e"""
+TEXT,VERSION_QUESTIO_R,TITLE,,,,,,"VERSION_QUESTIO / TYPE_QUESTIONNAIRE Interessé·e  par l'information générale (politique, économie, société ou environement)"
+TEXT,VERSION_QUESTIO_R,LABEL,1.0,,,,,Questionnaire LONG
+TEXT,VERSION_QUESTIO_R,LABEL,2.0,,,,,Questionnaire COURT
+TEXT,INT3_R,TITLE,,,,,,"INT3 Sentiment d'être bien informé :""Concernant les thématiques d’information qui vous intéressent, avez-vous le sentiment d’être bien informé ? """
+TEXT,L_INT3_R,LABEL,1.0,,,,1.0,"Oui, tout à fait"
+TEXT,L_INT3_R,LABEL,2.0,,,,1.0,"Oui, plutôt"
+TEXT,L_INT3_R,LABEL,3.0,,,,1.0,"Non, pas vraiment"
+TEXT,L_INT3_R,LABEL,4.0,,,,1.0,"Non, pas du tout"
+TEXT,INT3_R1,TITLE,,,,,,"INT3 Sentiment d'être bien informé - Récap ""Oui, tout à fait"""
+TEXT,INT3_R2,TITLE,,,,,,"INT3 Sentiment d'être bien informé - Récap ""Oui, un peu"""
+TEXT,INT3_R3,TITLE,,,,,,"INT3 Sentiment d'être bien informé - Récap ""Non, pas vraiment"""
+TEXT,INT3_R4,TITLE,,,,,,"INT3 Sentiment d'être bien informé - Récap ""Non, pas du tout"""
+TEXT,INT3_R5,TITLE,,,,,,"INT3 Sentiment d'être bien informé - Récap ""ST Oui"""
+TEXT,INT3_R7,TITLE,,,,,,INT3 Sentiment d'être bien informé - Nombre de thématiques moyen ST Oui
+TEXT,INT3_R6,TITLE,,,,,,"INT3 Sentiment d'être bien informé - Récap ""ST Non"""
+TEXT,MOTIV_R,TITLE,,,,,,"MOTIV Motivation pour s'informer (base totale) ""Quelles sont vos principales motivations pour vous informer ?
+Merci de sélectionner 3 principales motivations."""
+TEXT,MOTIV_R,LABEL,1.0,1.0,,,1.0,Top 1
+TEXT,MOTIV_R,LABEL,2.0,1.0,,,1.0,Top 2
+TEXT,MOTIV_R,LABEL,3.0,1.0,,,1.0,Top 3
+TEXT,MOTIV_R,LABEL,4.0,,,,0.0,Non cité
+TEXT,MOTIV_R_COLUMNS,LABEL,1.0,,,,1.0,Comprendre le monde qui m'entoure
+TEXT,MOTIV_R_COLUMNS,LABEL,2.0,,,,2.0,Rester informé des grands événements
+TEXT,MOTIV_R_COLUMNS,LABEL,3.0,,,,3.0,Me faire ma propre opinion
+TEXT,MOTIV_R_COLUMNS,LABEL,4.0,,,,4.0,Prendre des décisions éclairées en tant que citoyen
+TEXT,MOTIV_R_COLUMNS,LABEL,5.0,,,,5.0,Pouvoir en discuter et débattre avec mon entourage
+TEXT,MOTIV_R_COLUMNS,LABEL,6.0,,,,6.0,Me divertir
+TEXT,MOTIV_R_COLUMNS,LABEL,7.0,,,,7.0,Découvrir des nouvelles tendances ou cultures
+TEXT,MOTIV_R_COLUMNS,LABEL,8.0,,,,8.0,Satisfaire ma curiosité
+TEXT,MOTIV_R_COLUMNS,LABEL,9.0,,,,9.0,Passer le temps
+TEXT,MOTIV_R_COLUMNS,LABEL,10.0,,,,10.0,"M'instruire, me cultiver"
+TEXT,MOTIV_R_COLUMNS,LABEL,11.0,,,,11.0,"Progresser dans mon travail, mes études"
+TEXT,MOTIV_R_COLUMNS,LABEL,12.0,,,,12.0,Connaître d'autres avis que le mien
+TEXT,MOTIV_R_COLUMNS,LABEL,13.0,,,,13.0,Par habitude
+TEXT,MOTIV_R_COLUMNS,LABEL,14.0,,,,14.0,(Ne pas citer  : Aucune)
+TEXT,MOTIV_R1,TITLE,,,,,,"MOTIV Motivation pour s'informer - Récap ""Top 1"""
+TEXT,L_MOTIV_R1,LABEL,1.0,,,,1.0,Comprendre le monde qui m'entoure
+TEXT,L_MOTIV_R1,LABEL,2.0,,,,2.0,Rester informé des grands événements
+TEXT,L_MOTIV_R1,LABEL,3.0,,,,3.0,Me faire ma propre opinion
+TEXT,L_MOTIV_R1,LABEL,4.0,,,,4.0,Prendre des décisions éclairées en tant que citoyen
+TEXT,L_MOTIV_R1,LABEL,5.0,,,,5.0,Pouvoir en discuter et débattre avec mon entourage
+TEXT,L_MOTIV_R1,LABEL,6.0,,,,6.0,Me divertir
+TEXT,L_MOTIV_R1,LABEL,7.0,,,,7.0,Découvrir des nouvelles tendances ou cultures
+TEXT,L_MOTIV_R1,LABEL,8.0,,,,8.0,Satisfaire ma curiosité
+TEXT,L_MOTIV_R1,LABEL,9.0,,,,9.0,Passer le temps
+TEXT,L_MOTIV_R1,LABEL,10.0,,,,10.0,"M'instruire, me cultiver"
+TEXT,L_MOTIV_R1,LABEL,11.0,,,,11.0,"Progresser dans mon travail, mes études"
+TEXT,L_MOTIV_R1,LABEL,12.0,,,,12.0,Connaître d'autres avis que le mien
+TEXT,L_MOTIV_R1,LABEL,13.0,,,,13.0,Par habitude
+TEXT,L_MOTIV_R1,LABEL,14.0,,,,14.0,(Ne pas citer  : Aucune)
+TEXT,L_MOTIV_R1,LABEL,15.0,,,,15.0,Aucun
+TEXT,MOTIV_R2,TITLE,,,,,,"MOTIV Motivation pour s'informer - Récap ""ST Top 1 à Top 3"""
+TEXT,NEWS1_R,TITLE,,,,,,"NEWS1 Fréquence d'utilisation des différents mode d'information : ""A quelle fréquence avez-vous l’habitude de vous informer…"""
+TEXT,NEWS1_R,LABEL,1.0,,,,,Plusieurs fois par jour
+TEXT,NEWS1_R,LABEL,2.0,,,,,Au moins une fois par jour
+TEXT,NEWS1_R,LABEL,3.0,,,,,Au moins une fois par semaine
+TEXT,NEWS1_R,LABEL,4.0,,,,,Au moins une fois par mois
+TEXT,NEWS1_R,LABEL,5.0,,,,,Moins souvent
+TEXT,NEWS1_R,LABEL,6.0,,,,,Jamais
+TEXT,NEWS1_R_COLUMNS,LABEL,1.0,,,,1.0,"En écoutant la radio ou des podcasts quel que soit le support (radio, autoradio, smartphone...)"
+TEXT,NEWS1_R_COLUMNS,LABEL,2.0,,,,2.0,"En regardant la télévision en direct ou en replay quel que soit le support (poste de télévision, ordinateur, tablette...)"
+TEXT,NEWS1_R_COLUMNS,LABEL,3.0,,,,3.0,"En lisant un journal ou un magazine, quel que soit le support (papier, smartphone, ordinateur, tablette)"
+TEXT,NEWS1_R_COLUMNS,LABEL,4.0,,,,4.0,"En vous connectant directement sur le site ou l’application d’un média disponible uniquement sur Internet (Mediapart, Huffington Post)"
+TEXT,NEWS1_R_COLUMNS,LABEL,5.0,,,,5.0,"En utilisant un moteur de recherche (Google, Safari, …)"
+TEXT,NEWS1_R_COLUMNS,LABEL,6.0,,,,6.0,"En utilisant un portail d’actualité (Google actualité, Portail Orange, …)"
+TEXT,NEWS1_R_COLUMNS,LABEL,7.0,,,,7.0,"En consultant des réseaux sociaux (Facebook, X (Twitter), TikTok, LinkedIn ...)"
+TEXT,NEWS1_R_COLUMNS,LABEL,8.0,,,,8.0,"En consultant des plateformes de vidéo en ligne (Youtube, Twitch, …)"
+TEXT,NEWS1_R1,TITLE,,,,,,"NEWS1 Fréquence d'utilisation des différents mode d'information - Récap ""ST Au moins une fois par jour"""
+TEXT,NEWS1_R1,LABEL,1.0,,,,1.0,"En regardant la télévision en direct ou en replay quel que soit le support (poste de télévision, ordinateur, tablette...)"
+TEXT,NEWS1_R1,LABEL,2.0,,,,2.0,"En utilisant un moteur de recherche (Google, Safari, …)"
+TEXT,NEWS1_R1,LABEL,3.0,,,,3.0,"En consultant des réseaux sociaux (Facebook, X (Twitter), TikTok, LinkedIn ...)"
+TEXT,NEWS1_R1,LABEL,4.0,,,,4.0,"En écoutant la radio ou des podcasts quel que soit le support (radio, autoradio, smartphone...)"
+TEXT,NEWS1_R1,LABEL,5.0,,,,5.0,"En utilisant un portail d’actualité (Google actualité, Portail Orange, …)"
+TEXT,NEWS1_R1,LABEL,6.0,,,,6.0,"En lisant un journal ou un magazine, quel que soit le support (papier, smartphone, ordinateur, tablette)"
+TEXT,NEWS1_R1,LABEL,7.0,,,,7.0,"En vous connectant directement sur le site ou l’application d’un média disponible uniquement sur Internet (Mediapart, Huffington Post)"
+TEXT,NEWS1_R1,LABEL,8.0,,,,8.0,"En consultant des plateformes de vidéo en ligne (Youtube, Twitch, …)"
+TEXT,NEWS1_R1,LABEL,9.0,,,,9.0,Aucun
+TEXT,NEWS1_R2,TITLE,,,,,,"NEWS1 Fréquence d'utilisation des différents mode d'information - Récap ""ST Au moins une fois par semaine"""
+TEXT,NEWS1_R2,LABEL,1.0,,,,1.0,"En regardant la télévision en direct ou en replay quel que soit le support (poste de télévision, ordinateur, tablette...)"
+TEXT,NEWS1_R2,LABEL,2.0,,,,2.0,"En utilisant un moteur de recherche (Google, Safari, …)"
+TEXT,NEWS1_R2,LABEL,3.0,,,,3.0,"En écoutant la radio ou des podcasts quel que soit le support (radio, autoradio, smartphone...)"
+TEXT,NEWS1_R2,LABEL,4.0,,,,4.0,"En consultant des réseaux sociaux (Facebook, X (Twitter), TikTok, LinkedIn ...)"
+TEXT,NEWS1_R2,LABEL,5.0,,,,5.0,"En utilisant un portail d’actualité (Google actualité, Portail Orange, …)"
+TEXT,NEWS1_R2,LABEL,6.0,,,,6.0,"En lisant un journal ou un magazine, quel que soit le support (papier, smartphone, ordinateur, tablette)"
+TEXT,NEWS1_R2,LABEL,7.0,,,,7.0,"En consultant des plateformes de vidéo en ligne (Youtube, Twitch, …)"
+TEXT,NEWS1_R2,LABEL,8.0,,,,8.0,"En vous connectant directement sur le site ou l’application d’un média disponible uniquement sur Internet (Mediapart, Huffington Post)"
+TEXT,NEWS1_R2,LABEL,9.0,,,,9.0,Aucun
+TEXT,NEWS1_1B_R,TITLE,,,,,,NEWS1_1B Support d'écoute de la radio / des podcasts - Base : En écoutant la radio ou des podcasts au moins une fois par mois
+TEXT,NEWS1_1B_R,LABEL,1.0,,,,1.0,Un poste de radio ou un autoradio
+TEXT,NEWS1_1B_R,LABEL,2.0,,,,2.0,"Un smartphone, un ordinateur, une tablette"
+TEXT,NEWS1_1B_R,LABEL,3.0,,,,2.0,Un autre support
+TEXT,NEWS1_2B_R,TITLE,,,,,,NEWS1_2B Support pour regarder la télévision - Base : En regardant la télévision au moins une fois par mois
+TEXT,NEWS1_2B_R,LABEL,1.0,,,,1.0,Un poste de télévision
+TEXT,NEWS1_2B_R,LABEL,2.0,,,,2.0,"Un smartphone, un ordinateur, une tablette"
+TEXT,NEWS1_3B_R,TITLE,,,,,,NEWS1_3B Support de lecture d'un journal / magazine - Base :  En lisant un journal ou un magazine au moins une fois par mois
+TEXT,NEWS1_3B_R,LABEL,1.0,,,,1.0,"Sur un smartphone, un ordinateur, une tablette"
+TEXT,NEWS1_3B_R,LABEL,2.0,,,,2.0,En version papier
+TEXT,NEWS1SOURCES_LR6_R,TITLE,,,,,,NEWS1SOURCES_Lr6 Source / provenance des informations consultées sur un moteur de recherche - Base : En utilisant un moteur de recherche au moins une fois par mois
+TEXT,L_NEWS1SOURCES_LR6_R,LABEL,1.0,,,,,"D'informations produites par des médias (radio, télévision, presse)"
+TEXT,L_NEWS1SOURCES_LR6_R,LABEL,2.0,,,,,"D'informations qui ne sont pas produites par des médias (créateurs de contenus, personnalités, anonymes)"
+TEXT,L_NEWS1SOURCES_LR6_R,LABEL,3.0,,,,,Un peu des deux
+TEXT,L_NEWS1SOURCES_LR6_R,LABEL,4.0,,,,,Je ne sais pas
+TEXT,NEWS1SOURCES_LR7_R,TITLE,,,,,,NEWS1SOURCES_Lr7 Source / provenance des informations consultées sur un portail d'actualité - Base :  En utilisant un portail d'actualité au moins une fois par mois
+TEXT,NEWS1SOURCES_LR8_R,TITLE,,,,,,NEWS1SOURCES_Lr8 Source / provenance des informations consultées sur les réseaux sociaux - Base : En consultant des réseaux sociaux au moins une fois par mois
+TEXT,NEWS1SOURCES_LR9_R,TITLE,,,,,,NEWS1SOURCES_Lr9 Source / provenance des informations consultées sur des plateformes de vidéo en ligne - Base : En consultant des plateformes de vidéo en ligne au moins une fois par mois
+TEXT,NEWS1SOURCES_R,TITLE,,,,,,News1source Recap ST Informations produites par des médias - Base Cawi
+TEXT,L_NEWS1SOURCES_R,LABEL,1.0,,,,1.0,Provenance des informations consultées sur un moteur de recherche
+TEXT,L_NEWS1SOURCES_R,LABEL,2.0,,,,2.0,Provenance des informations consultées sur un portail d'actualité
+TEXT,L_NEWS1SOURCES_R,LABEL,3.0,,,,3.0,Provenance des informations consultées sur les réseaux sociaux
+TEXT,L_NEWS1SOURCES_R,LABEL,4.0,,,,4.0,Provenance des informations consultées sur des plateformes de vidéo en ligne
+TEXT,L_NEWS1SOURCES_R,LABEL,5.0,,,,5.0,Aucun
+TEXT,NBR_NEWS1SOURCES_R1,TITLE,,,,,,Newsource Nombre  de Sources utilisés pour s'informer sur les médias
+TEXT,L_NBR_NEWS1SOURCES_R1,LABEL,1.0,0.0,,,1.0,0
+TEXT,L_NBR_NEWS1SOURCES_R1,LABEL,2.0,1.0,,,1.0,1
+TEXT,L_NBR_NEWS1SOURCES_R1,LABEL,3.0,2.0,,,1.0,2
+TEXT,L_NBR_NEWS1SOURCES_R1,LABEL,4.0,3.0,,,1.0,3
+TEXT,L_NBR_NEWS1SOURCES_R1,LABEL,5.0,4.0,,,1.0,4
+TEXT,NEWS1SOURCES_R2,TITLE,,,,,,News1source Recap  ST Informations qui ne sont pas produites par des médias - Base Cawi
+TEXT,NBR_NEWS1SOURCES_R3,TITLE,,,,,,Newsource Nombre informations qui ne sont pas produites par des médias
+TEXT,NEWS1BIS_R,TITLE,,,,,,"NEWS1BIS Mode d'information principal pour s'informer - Base : S'informe régulièrement : ""Et parmi les modes d’information que vous avez cités lequel est votre principal moyen de vous informer ?"""
+TEXT,NEWS1BIS_R,LABEL,1.0,,,,,"En écoutant la radio ou des podcasts quel que soit le support (radio, auto-radio, smartphone...)"
+TEXT,NEWS1BIS_R,LABEL,2.0,,,,,"En regardant la télévision en direct ou en replay quel que soit le support (poste de télévision, ordinateur, tablett"
+TEXT,NEWS1BIS_R,LABEL,3.0,,,,,"En lisant un journal ou un magazine, quel que soit le support (papier, smartphone, ordinateur, tablette)"
+TEXT,NEWS1BIS_R,LABEL,4.0,,,,,"En vous connectant directement sur le site ou l'application d'un média (radio, télévision ou presse)"
+TEXT,NEWS1BIS_R,LABEL,5.0,,,,,"En vous connectant directement sur le site ou l'application d'un média disponible uniquement sur Internet (Mediapart, H"
+TEXT,NEWS1BIS_R,LABEL,6.0,,,,,"En utilisant un moteur de recherche (Google, Safari, …)"
+TEXT,NEWS1BIS_R,LABEL,7.0,,,,,"En utilisant un portail d'actualité (Google actualité, Portail Orange, …)"
+TEXT,NEWS1BIS_R,LABEL,8.0,,,,,"En consultant des réseaux sociaux (Facebook, X (Twitter), TikTok, LinkedIn ...)"
+TEXT,NEWS1BIS_R,LABEL,9.0,,,,,"En consultant des plateformes de vidéo en ligne (Youtube,Twitch, …)"
+TEXT,DEVICEXMOMENTS_R,TITLE,,,,,,"DEVICEXMOMENTS Moment pour s'informer par équipement média Base CATI+ CAWI "". Au cours d’une journée moyenne, quand et comment vous informez-vous ?"""
+TEXT,DEVICEXMOMENTS_R,LABEL,1.0,,,,,Le matin avant 9h
+TEXT,DEVICEXMOMENTS_R,LABEL,2.0,,,,,Entre 9h et 12h
+TEXT,DEVICEXMOMENTS_R,LABEL,3.0,,,,,Entre 12h et 14h
+TEXT,DEVICEXMOMENTS_R,LABEL,4.0,,,,,Entre 14h et 18h
+TEXT,DEVICEXMOMENTS_R,LABEL,5.0,,,,,Entre 18h et 20h
+TEXT,DEVICEXMOMENTS_R,LABEL,6.0,,,,,Entre 20h et 22h
+TEXT,DEVICEXMOMENTS_R,LABEL,7.0,,,,,Après 22h
+TEXT,DEVICEXMOMENTS_R,LABEL,8.0,,,,,Non
+TEXT,DEVICEXMOMENTS_R1,TITLE,,,,,,DEVICEXMOMENTS Moment pour s'informer par équipement média - Base : Cawi
+TEXT,DEVICEXMOMENTS_R1,LABEL,1.0,,,,1.0,Sur un poste de télévision
+TEXT,DEVICEXMOMENTS_R1,LABEL,2.0,,,,2.0,Sur mon smartphone
+TEXT,DEVICEXMOMENTS_R1,LABEL,3.0,,,,3.0,Sur un ordinateur (fixe ou portable
+TEXT,DEVICEXMOMENTS_R1,LABEL,4.0,,,,4.0,Sur une tablette
+TEXT,DEVICEXMOMENTS_R1,LABEL,5.0,,,,5.0,Sur un poste de radio ou un autoradi
+TEXT,DEVICEXMOMENTS_R1,LABEL,6.0,,,,6.0,Sur un journal ou magazine en version papier
+TEXT,DEVICEXMOMENTS_R1,LABEL,7.0,,,,7.0,"Sur une enceinte connectée (Alexa d'Amazon, Google Home…)"
+TEXT,DEVICEXMOMENTS_R1,LABEL,8.0,,,,8.0,Je ne suis pas l'actualité à ce moment de la journée
+TEXT,DEVICEXMOMENTS_R1_COLUMNS,LABEL,1.0,,,,1.0,Le matin avant 9h
+TEXT,DEVICEXMOMENTS_R1_COLUMNS,LABEL,2.0,,,,2.0,Entre 9h et 12h
+TEXT,DEVICEXMOMENTS_R1_COLUMNS,LABEL,3.0,,,,3.0,Entre 12h et 14h
+TEXT,DEVICEXMOMENTS_R1_COLUMNS,LABEL,4.0,,,,4.0,Entre 14h et 18h
+TEXT,DEVICEXMOMENTS_R1_COLUMNS,LABEL,5.0,,,,5.0,Entre 18h et 20h
+TEXT,DEVICEXMOMENTS_R1_COLUMNS,LABEL,6.0,,,,6.0,Entre 20h et 22h
+TEXT,DEVICEXMOMENTS_R1_COLUMNS,LABEL,7.0,,,,7.0,Après 22h
+TEXT,FORMAT_R,TITLE,,,,,,"FORMAT Formats priviligiés pour s'informer ""Et quels formats privilégiez-vous pour vous informer ?"""
+TEXT,FORMAT_R,LABEL,1.0,,,,1.0,"L'audio, le son"
+TEXT,FORMAT_R,LABEL,2.0,,,,2.0,L'écrit
+TEXT,FORMAT_R,LABEL,3.0,,,,3.0,La vidéo
+TEXT,FORMAT_R,LABEL,4.0,,,,4.0,"Des photos, des images"
+TEXT,FORMAT3_LR1_FORMAT3_1_R,TITLE,,,,,,"FORMAT3_Lr1 / FORMAT3_1 L'audio, le son : Longueur préférée  - Base : Privilégie l'audio, le son pour s'informer"
+TEXT,L_FORMAT3_LR1_FORMAT3_1_R,LABEL,1.0,,,,,D'un format long (Plus de 20 minutes)
+TEXT,L_FORMAT3_LR1_FORMAT3_1_R,LABEL,2.0,,,,,D'un format court (Entre 5 et 20 minutes)
+TEXT,L_FORMAT3_LR1_FORMAT3_1_R,LABEL,3.0,,,,,D'un format très court (moins de 5 minutes)
+TEXT,FORMAT2_LR1_FORMAT2_1_R,TITLE,,,,,,"FORMAT2_Lr1 / FORMAT2_1 L'audio, le son : En direct ou en replay  - Base : Privilégie l'audio, le son pour s'informer"
+TEXT,L_FORMAT2_LR1_FORMAT2_1_R,LABEL,1.0,,,,,En direct
+TEXT,L_FORMAT2_LR1_FORMAT2_1_R,LABEL,2.0,,,,,"En replay, en différé"
+TEXT,FORMAT3_LR2_FORMAT3_2_R,TITLE,,,,,,FORMAT3_Lr2 / FORMAT3_2 L'écrit : Longueur préférée - Base : Privilégie l'écrit pour s'informer
+TEXT,FORMAT3_LR3_FORMAT3_3_R,TITLE,,,,,,FORMAT3_Lr3 / FORMAT3_3 La vidéo : Longueur préférée - Base : Privilégie la vidéo pour s'informer
+TEXT,FORMAT2_LR3_FORMAT2_3_R,TITLE,,,,,,FORMAT2_Lr3 / FORMAT2_3 La vidéo : En direct ou en replay  - Base : Privilégie la vidéo pour s'informer
+TEXT,PAY_R,TITLE,,,,,,"PAY Paye pour s'informer :"" Au cours des 12 derniers mois, avez-vous payé pour vous informer…"""
+TEXT,L_PAY_R,LABEL,1.0,,,,,Oui
+TEXT,L_PAY_R,LABEL,2.0,,,,,Non
+TEXT,PAY_R_COLUMNS,LABEL,1.0,,,0.0,1.0,J'ai acheté des journaux ou magazines à l'unité en point de vente presse
+TEXT,PAY_R_COLUMNS,LABEL,2.0,,,0.0,2.0,J'ai acheté des articles de journaux ou magazines à l'unité en ligne
+TEXT,PAY_R_COLUMNS,LABEL,3.0,,,0.0,3.0,J'ai payé un abonnement à un ou plusieurs journaux ou magazines
+TEXT,PAY_R_COLUMNS,LABEL,4.0,,,0.0,4.0,J'ai payé un abonnement à un kiosque numérique
+TEXT,PAY_R_COLUMNS,LABEL,5.0,,,0.0,5.0,J'ai payé un abonnement à un site d'information en ligne
+TEXT,PAY_R_COLUMNS,LABEL,6.0,,,0.0,6.0,J'ai payé un abonnement à une newsletter
+TEXT,PAY_R_COLUMNS,LABEL,7.0,,,0.0,7.0,"J'ai payé pour d'autres abonnements (Twitch, …)"
+TEXT,PAY_R1,TITLE,,,,,,"PAY Paye pour s'informer - Récap ""Oui"""
+TEXT,PAY_R1,LABEL,1.0,,,,1.0,J'ai acheté des journaux ou magazines à l'unité en point de vente presse
+TEXT,PAY_R1,LABEL,2.0,,,,2.0,J'ai acheté des articles de journaux ou magazines à l'unité en ligne
+TEXT,PAY_R1,LABEL,3.0,,,,3.0,J'ai payé un abonnement à un ou plusieurs journaux ou magazines
+TEXT,PAY_R1,LABEL,4.0,,,,4.0,J'ai payé un abonnement à un kiosque numérique
+TEXT,PAY_R1,LABEL,5.0,,,,5.0,J'ai payé un abonnement à un site d'information en ligne
+TEXT,PAY_R1,LABEL,6.0,,,,6.0,J'ai payé un abonnement à une newsletter
+TEXT,PAY_R1,LABEL,7.0,,,,7.0,"J'ai payé pour d'autres abonnements (Twitch, …)"
+TEXT,PAY_R1,LABEL,8.0,,,,8.0,Aucun
+TEXT,AGREG_R,TITLE,,,,,,"AGREG Agrégateurs d'actualité consultés  - Base : Équipé d'un(e) smartphone, tablette ou ordinateur : ""Sur votre téléphone, tablette ou ordinateur, disposez-vous des agrégateurs d’actualité suivants, qui compilent des articles d’actualité de différents médias ?"""
+TEXT,AGREG_R,LABEL,1.0,,,,,Oui et je le consulte régulièrement
+TEXT,AGREG_R,LABEL,2.0,,,,,Oui mais je le consulte rarement ou jamais
+TEXT,AGREG_R,LABEL,3.0,,,,,"Non, je n'en dispose pas / je ne sais pas"
+TEXT,AGREG_R_COLUMNS,LABEL,1.0,,,,1.0,Flipboard
+TEXT,AGREG_R_COLUMNS,LABEL,2.0,,,,2.0,Upday
+TEXT,AGREG_R_COLUMNS,LABEL,3.0,,,,3.0,Google Actualité / News
+TEXT,AGREG_R_COLUMNS,LABEL,4.0,,,,4.0,Microsoft Start
+TEXT,AGREG_R_COLUMNS,LABEL,5.0,,,,5.0,Opéra News
+TEXT,AGREG_R_COLUMNS,LABEL,6.0,,,,6.0,Orange actu
+TEXT,AGREG_R_COLUMNS,LABEL,7.0,,,,7.0,Portail MSN
+TEXT,AGREG_R_COLUMNS,LABEL,8.0,,,,8.0,Yahoo actualités
+TEXT,AGREG_R1,TITLE,,,,,,"AGREG Agrégateurs d'actualité consultés - Récap ""Oui et je le consulte régulièrement"" - Base : Équipé d'un(e) smartphone, tablette ou ordinateur"
+TEXT,L_AGREG_R1,LABEL,1.0,,,,1.0,Flipboard
+TEXT,L_AGREG_R1,LABEL,2.0,,,,2.0,Upday
+TEXT,L_AGREG_R1,LABEL,3.0,,,,3.0,Google Actualité / News
+TEXT,L_AGREG_R1,LABEL,4.0,,,,4.0,Microsoft Start
+TEXT,L_AGREG_R1,LABEL,5.0,,,,5.0,Opéra News
+TEXT,L_AGREG_R1,LABEL,6.0,,,,6.0,Orange actu
+TEXT,L_AGREG_R1,LABEL,7.0,,,,7.0,Portail MSN
+TEXT,L_AGREG_R1,LABEL,8.0,,,,8.0,Yahoo actualités
+TEXT,L_AGREG_R1,LABEL,9.0,,,,9.0,Aucun
+TEXT,AGREG_R2,TITLE,,,,,,"AGREG Agrégateurs d'actualité consultés - Récap ""Oui mais je le consulte rarement ou jamais"" - Base : Équipé d'un(e) smartphone, tablette ou ordinateur"
+TEXT,AGREG_R3,TITLE,,,,,,"AGREG Agrégateurs d'actualité consultés- Récap ""ST Oui"" - Base : Équipé d'un(e) smartphone, tablette ou ordinateur"
+TEXT,NOTIF_R,TITLE,,,,,,"NOTIF Activation des notifications - Base : Un ou plusieurs équipements médias :""Avez-vous activé sur votre smartphone, tablette ou ordinateur des notifications en lien avec l’information ?"""
+TEXT,RSINFO_1_LR_R,TITLE,,,,,,"RSINFO_1_Lr Utilisation des réseaux sociaux et plateformes en général :""Pour chacun des réseaux sociaux et des plateformes de vidéo ci-dessous"""
+TEXT,L_RSINFO_1_LR_R,LABEL,1.0,,,,1.0,Facebook.
+TEXT,L_RSINFO_1_LR_R,LABEL,2.0,,,,2.0,Instagram
+TEXT,L_RSINFO_1_LR_R,LABEL,3.0,,,,3.0,X (anciennement Twitter)
+TEXT,L_RSINFO_1_LR_R,LABEL,4.0,,,,4.0,TikTok
+TEXT,L_RSINFO_1_LR_R,LABEL,5.0,,,,5.0,Snapchat
+TEXT,L_RSINFO_1_LR_R,LABEL,6.0,,,,6.0,LinkedIn
+TEXT,L_RSINFO_1_LR_R,LABEL,7.0,,,,7.0,WhatsApp
+TEXT,L_RSINFO_1_LR_R,LABEL,8.0,,,,8.0,Telegram
+TEXT,L_RSINFO_1_LR_R,LABEL,9.0,,,,9.0,Youtube
+TEXT,L_RSINFO_1_LR_R,LABEL,10.0,,,,12.0,Twitch
+TEXT,L_RSINFO_1_LR_R,LABEL,11.0,,,,10.0,Reddit
+TEXT,L_RSINFO_1_LR_R,LABEL,12.0,,,,11.0,Discord
+TEXT,L_RSINFO_1_LR_R,LABEL,13.0,,,,13.0,Un autre réseau social ou plateforme de vidéo...
+TEXT,L_RSINFO_1_LR_R,LABEL,14.0,,,,14.0,Aucun
+TEXT,RSINFO_2_LR_R,TITLE,,,,,,"RSINFO_2_Lr Utilisation des réseaux sociaux et plateformes pour s'informer - Base : Utilise les réseaux sociaux :""Et vous informez-vous via ce réseau social ou cette plateforme ? Que ce soit sur la politique, la société, le sport, la culture …"""
+TEXT,C_RSINFO_2_LR_R,LABEL,1.0,,,0.0,1.0,Facebook
+TEXT,C_RSINFO_2_LR_R,LABEL,2.0,,,0.0,2.0,Instagram
+TEXT,C_RSINFO_2_LR_R,LABEL,3.0,,,0.0,3.0,X (anciennement Twitter)
+TEXT,C_RSINFO_2_LR_R,LABEL,4.0,,,0.0,4.0,TikTok
+TEXT,C_RSINFO_2_LR_R,LABEL,5.0,,,0.0,5.0,Snapchat
+TEXT,C_RSINFO_2_LR_R,LABEL,6.0,,,0.0,6.0,LinkedIn
+TEXT,C_RSINFO_2_LR_R,LABEL,7.0,,,0.0,7.0,WhatsApp
+TEXT,C_RSINFO_2_LR_R,LABEL,8.0,,,0.0,8.0,Telegram
+TEXT,C_RSINFO_2_LR_R,LABEL,9.0,,,0.0,9.0,Youtube
+TEXT,C_RSINFO_2_LR_R,LABEL,10.0,,,0.0,10.0,Reddit
+TEXT,C_RSINFO_2_LR_R,LABEL,11.0,,,0.0,11.0,Discord
+TEXT,C_RSINFO_2_LR_R,LABEL,12.0,,,0.0,12.0,Twitch
+TEXT,C_RSINFO_2_LR_R,LABEL,13.0,,,0.0,13.0,Un autre réseau social ou plateforme de vidéo
+TEXT,RSINFO_2_LR_R2,TITLE,,,,,,RSINFO_2_Lr Utilisation des réseaux sociaux et plateformes pour s'informer Base Utilise au moins un réseau social
+TEXT,RSINFO_2_LR_R3,TITLE,,,,,,RSINFO_2_Lr Utilisation des réseaux sociaux et plateformes pour s'informer Base Utilise les réseaux
+TEXT,RSINFO_2_LR_R4,TITLE,,,,,,RSINFO_2_Lr Utilisation des réseaux sociaux et plateformes pour s'informer : Base Totale
+TEXT,RSINFO_2_LR_R4,LABEL,1.0,1.0,,,1.0,Facebook.
+TEXT,RSINFO_2_LR_R4,LABEL,2.0,1.0,,,2.0,Instagram
+TEXT,RSINFO_2_LR_R4,LABEL,3.0,1.0,,,3.0,X (anciennement Twitter)
+TEXT,RSINFO_2_LR_R4,LABEL,4.0,1.0,,,4.0,TikTok
+TEXT,RSINFO_2_LR_R4,LABEL,5.0,1.0,,,5.0,Snapchat
+TEXT,RSINFO_2_LR_R4,LABEL,6.0,1.0,,,6.0,LinkedIn
+TEXT,RSINFO_2_LR_R4,LABEL,7.0,1.0,,,7.0,WhatsApp
+TEXT,RSINFO_2_LR_R4,LABEL,8.0,1.0,,,8.0,Telegram
+TEXT,RSINFO_2_LR_R4,LABEL,9.0,1.0,,,9.0,Youtube
+TEXT,RSINFO_2_LR_R4,LABEL,10.0,1.0,,,12.0,Twitch
+TEXT,RSINFO_2_LR_R4,LABEL,11.0,1.0,,,10.0,Reddit
+TEXT,RSINFO_2_LR_R4,LABEL,12.0,1.0,,,11.0,Discord
+TEXT,RSINFO_2_LR_R4,LABEL,13.0,1.0,,,13.0,Un autre réseau social ou plateforme de vidéo...
+TEXT,RSINFO_2_LR_R4,LABEL,14.0,,,,14.0,Aucun
+TEXT,RSINFO_2_LR_R4,LABEL,15.0,,,,0.0,NR
+TEXT,MOTIVRS_R,TITLE,,,,,,"MOTIVRS Motivations / raisons pour s'informer sur les réseaux sociaux :"" Pourquoi vous informez-vous via les réseaux sociaux ? """
+TEXT,MOTIVRS_R,LABEL,1.0,,,,6.0,L'information vient facilement à moi
+TEXT,MOTIVRS_R,LABEL,2.0,,,,5.0,J'y reçois les informations en temps réel
+TEXT,MOTIVRS_R,LABEL,3.0,,,,9.0,Via les réseaux sociaux je bénéficie d'un grand nombre de sources différentes
+TEXT,MOTIVRS_R,LABEL,4.0,,,,10.0,Je peux connaitre les opinions des autres personnes
+TEXT,MOTIVRS_R,LABEL,5.0,,,,7.0,"Je préfère les formats proposés sur les réseaux sociaux (vidéo courtes, images et textes)"
+TEXT,MOTIVRS_R,LABEL,6.0,,,,2.0,J'y trouve des informations que je ne trouve pas ailleurs
+TEXT,MOTIVRS_R,LABEL,7.0,,,,11.0,Tout le monde peut s'exprimer librement
+TEXT,MOTIVRS_R,LABEL,8.0,,,,1.0,Je passe beaucoup de temps sur les réseaux sociaux
+TEXT,MOTIVRS_R,LABEL,9.0,,,,4.0,Je suis sûr·e d'y trouver des informations qui m'intéressent
+TEXT,MOTIVRS_R,LABEL,10.0,,,,8.0,Je peux commenter et discuter des informations directement avec d'autres personnes
+TEXT,MOTIVRS_R,LABEL,11.0,,,,3.0,Je pense que les informations sur les réseaux sociaux sont plus fiables qu'ailleurs
+TEXT,MOTIVRS_R,LABEL,12.0,,,,12.0,Autre préciser
+TEXT,ENGAR_R,TITLE,,,,,,"ENGA Fréquence des interactions sur les réseaux sociaux (commentaire, like, partage) - Base : Accède à l'information en ligne :""A quelle fréquence réalisez-vous les actions suivantes lorsque vous vous informez en ligne ? """
+TEXT,ENGAR_R,LABEL,1.0,,,,,Régulièrement
+TEXT,ENGAR_R,LABEL,2.0,,,,,Parfois
+TEXT,ENGAR_R,LABEL,3.0,,,,,Jamais
+TEXT,ENGAR_R_COLUMNS,LABEL,1.0,,,,1.0,"ST Commente, Like, Partage"
+TEXT,ENGAR_R_COLUMNS,LABEL,2.0,,,,2.0,Commenter
+TEXT,ENGAR_R_COLUMNS,LABEL,3.0,,,,3.0,Partager
+TEXT,ENGAR_R_COLUMNS,LABEL,4.0,,,,4.0,Liker
+TEXT,ENGAR_R2,TITLE,,,,,,"ENGA Fréquence des interactions sur les réseaux sociaux - Récap ""Régulièrement"" - Base : Accède à l'information en ligne"
+TEXT,L_ENGAR_R2,LABEL,1.0,,,,2.0,Commenter
+TEXT,L_ENGAR_R2,LABEL,2.0,,,,3.0,Partager
+TEXT,L_ENGAR_R2,LABEL,3.0,,,,4.0,Liker
+TEXT,L_ENGAR_R2,LABEL,4.0,,,,5.0,Aucun
+TEXT,ENGAR_R3,TITLE,,,,,,"ENGA Fréquence des interactions sur les réseaux sociaux - Récap ""Parfois"" - Base : Accède à l'information en ligne"
+TEXT,ENGAR_R4,TITLE,,,,,,"ENGA Fréquence des interactions sur les réseaux sociaux - Récap ""ST Oui"" - Base : Accède à l'information en ligne"
+TEXT,SOURCES1AR_B1_R,TITLE,,,,,,"SOURCES1Ar / B1 Radio : Marques médias consommées / consultées régulièrement - Base : Questionnaire long ; ""Nous allons maintenant vous présenter différents médias.
+Quels sont ceux que vous écoutez, regardez ou consultez régulièrement pour vous informer sur les sujets de politique, d’économie et de société ?
+Que ce soit à la radio, en podcast, sur un poste de télévision, via le site internet ou l’application, sur les réseaux sociaux ou sur des plateformes de vidéo en ligne
+Sélectionner tous les médias que vous consommez régulièrement pour vous informer"""
+TEXT,SOURCES1AR_B1_R,LABEL,1.0,1.0,,,1.0,Europe 1
+TEXT,SOURCES1AR_B1_R,LABEL,2.0,1.0,,,2.0,France Bleu
+TEXT,SOURCES1AR_B1_R,LABEL,3.0,1.0,,,3.0,France Inter
+TEXT,SOURCES1AR_B1_R,LABEL,4.0,1.0,,,4.0,RMC
+TEXT,SOURCES1AR_B1_R,LABEL,5.0,1.0,,,5.0,RTL
+TEXT,SOURCES1AR_B1_R,LABEL,6.0,1.0,,,6.0,Franceinfo la station de radio
+TEXT,SOURCES1AR_B1_R,LABEL,7.0,1.0,,,7.0,Radio Classique
+TEXT,SOURCES1AR_B1_R,LABEL,8.0,1.0,,,8.0,France Culture
+TEXT,SOURCES1AR_B1_R,LABEL,9.0,1.0,,,9.0,BFM Business
+TEXT,SOURCES1AR_B1_R,LABEL,10.0,1.0,,,10.0,Sud radio
+TEXT,SOURCES1AR_B1_R,LABEL,11.0,1.0,,,11.0,RFI
+TEXT,SOURCES1AR_B1_R,LABEL,12.0,1.0,,,12.0,Une radio locale
+TEXT,SOURCES1AR_B1_R,LABEL,13.0,1.0,,,13.0,Une autre radio
+TEXT,SOURCES1AR_B1_R,LABEL,14.0,1.0,,,14.0,Rien de tout cela
+TEXT,SOURCES1AR_B1_R,LABEL,15.0,,,,1.0,Non cité
+TEXT,SOURCES1A_DOMR_R,TITLE,,,,,,SOURCES1A_DOMr Média outre-mer : Marques médias consommées / consultées régulièrement - Base : Questionnaire long
+TEXT,SOURCES1A_DOMR_R,LABEL,1.0,,,,1.0,RCI Martinique
+TEXT,SOURCES1A_DOMR_R,LABEL,2.0,,,,2.0,RCI Guadeloupe
+TEXT,SOURCES1A_DOMR_R,LABEL,3.0,,,,3.0,La Première
+TEXT,SOURCES1A_DOMR_R,LABEL,4.0,,,,4.0,France O
+TEXT,SOURCES1A_DOMR_R,LABEL,5.0,,,,5.0,Antenne Réunion / L'info.Re
+TEXT,SOURCES1A_DOMR_R,LABEL,6.0,,,,6.0,Freedom
+TEXT,SOURCES1A_DOMR_R,LABEL,7.0,,,,7.0,France Antilles
+TEXT,SOURCES1A_DOMR_R,LABEL,8.0,,,,8.0,Zinfos974
+TEXT,SOURCES1A_DOMR_R,LABEL,9.0,,,,9.0,Canal10
+TEXT,SOURCES1A_DOMR_R,LABEL,10.0,,,,10.0,Alizés TV
+TEXT,SOURCES1A_DOMR_R,LABEL,11.0,,,,11.0,ViaATV
+TEXT,SOURCES1A_DOMR_R,LABEL,12.0,,,,12.0,Kwezi
+TEXT,SOURCES1A_DOMR_R,LABEL,13.0,,,,13.0,Un autre média ultramarin
+TEXT,SOURCES1A_DOMR_R,LABEL,14.0,,,,14.0,Rien de tout cela
+TEXT,SOURCES1BR_B2_R,TITLE,,,,,,SOURCES1Br / B2 Journaux : Marques médias consommées / consultées régulièrement - Base : Questionnaire long
+TEXT,SOURCES1BR_B2_R,LABEL,1.0,1.0,,,1.0,Le Monde
+TEXT,SOURCES1BR_B2_R,LABEL,2.0,1.0,,,2.0,Le Parisien / Aujourd'hui en France
+TEXT,SOURCES1BR_B2_R,LABEL,3.0,1.0,,,3.0,Le Figaro
+TEXT,SOURCES1BR_B2_R,LABEL,4.0,1.0,,,4.0,Les Echos
+TEXT,SOURCES1BR_B2_R,LABEL,5.0,1.0,,,5.0,L'Equipe
+TEXT,SOURCES1BR_B2_R,LABEL,6.0,1.0,,,6.0,La Croix
+TEXT,SOURCES1BR_B2_R,LABEL,7.0,1.0,,,7.0,Libération
+TEXT,SOURCES1BR_B2_R,LABEL,8.0,1.0,,,8.0,L'Humanité
+TEXT,SOURCES1BR_B2_R,LABEL,9.0,1.0,,,9.0,Mediapart
+TEXT,SOURCES1BR_B2_R,LABEL,10.0,1.0,,,10.0,Huffington Post
+TEXT,SOURCES1BR_B2_R,LABEL,11.0,1.0,,,11.0,Un journal régional ou local
+TEXT,SOURCES1BR_B2_R,LABEL,12.0,1.0,,,12.0,"Un journal paraissant le dimanche (Journal du Dimanche, La Tribune Dimanche, Parisien dimanche, …)"
+TEXT,SOURCES1BR_B2_R,LABEL,13.0,1.0,,,13.0,"Un journal satirique (Canard enchainé, Charlie Hebdo, …)"
+TEXT,SOURCES1BR_B2_R,LABEL,14.0,1.0,,,14.0,"Un quotidien gratuit (20 minutes, Métro, …)"
+TEXT,SOURCES1BR_B2_R,LABEL,15.0,1.0,,,15.0,Un autre journal
+TEXT,SOURCES1BR_B2_R,LABEL,16.0,1.0,,,16.0,Rien de tout cela
+TEXT,SOURCES1BR_B2_R,LABEL,17.0,,,,1.0,Non cité
+TEXT,SOURCES1CR_B3_R,TITLE,,,,,,"SOURCES1Cr / B3 Magazines, revues : Marques médias consommées / consultées régulièrement - Base : Questionnaire long"
+TEXT,SOURCES1CR_B3_R,LABEL,1.0,,,,1.0,Télérama
+TEXT,SOURCES1CR_B3_R,LABEL,2.0,,,,2.0,"M, Le magazine du monde"
+TEXT,SOURCES1CR_B3_R,LABEL,3.0,,,,3.0,Le Point
+TEXT,SOURCES1CR_B3_R,LABEL,4.0,,,,4.0,L'Obs
+TEXT,SOURCES1CR_B3_R,LABEL,5.0,,,,5.0,L'Express
+TEXT,SOURCES1CR_B3_R,LABEL,6.0,,,,6.0,Le Figaro Magazine
+TEXT,SOURCES1CR_B3_R,LABEL,7.0,,,,7.0,Courrier International
+TEXT,SOURCES1CR_B3_R,LABEL,8.0,,,,8.0,Marianne
+TEXT,SOURCES1CR_B3_R,LABEL,9.0,,,,9.0,Paris Match
+TEXT,SOURCES1CR_B3_R,LABEL,10.0,,,,10.0,Valeurs Actuelles
+TEXT,SOURCES1CR_B3_R,LABEL,11.0,,,,11.0,"Presse féminine (Marie Claire, ELLE, …)"
+TEXT,SOURCES1CR_B3_R,LABEL,12.0,,,,12.0,"Presse magazine people (Closer, Voici, Gala, Public…)"
+TEXT,SOURCES1CR_B3_R,LABEL,13.0,,,,13.0,Presse Economique et financière
+TEXT,SOURCES1CR_B3_R,LABEL,14.0,,,,14.0,"Presse Internationale (New York Times, The Economist, …)"
+TEXT,SOURCES1CR_B3_R,LABEL,15.0,,,,15.0,Un autre journal
+TEXT,SOURCES1CR_B3_R,LABEL,16.0,,,,16.0,Rien de tout cela
+TEXT,SOURCES1CR_B3_R,LABEL,17.0,,,,1.0,Non cité
+TEXT,SOURCES1DR_B4_R,TITLE,,,,,,SOURCES1Dr / B4_1 à 12 Chaînes TV : Marques médias consommées / consultées régulièrement - Base : Questionnaire long
+TEXT,SOURCES1DR_B4_R,LABEL,1.0,,,,1.0,TF1
+TEXT,SOURCES1DR_B4_R,LABEL,2.0,,,,2.0,France 2
+TEXT,SOURCES1DR_B4_R,LABEL,3.0,,,,3.0,France 3
+TEXT,SOURCES1DR_B4_R,LABEL,4.0,,,,4.0,France 5
+TEXT,SOURCES1DR_B4_R,LABEL,5.0,,,,5.0,Arte
+TEXT,SOURCES1DR_B4_R,LABEL,6.0,,,,6.0,M6
+TEXT,SOURCES1DR_B4_R,LABEL,7.0,,,,7.0,C8
+TEXT,SOURCES1DR_B4_R,LABEL,8.0,,,,8.0,Canal+
+TEXT,SOURCES1DR_B4_R,LABEL,9.0,,,,9.0,TMC
+TEXT,SOURCES1DR_B4_R,LABEL,10.0,,,,10.0,RMC Story
+TEXT,SOURCES1DR_B4_R,LABEL,11.0,,,,11.0,Une autre chaîne TV généraliste
+TEXT,SOURCES1DR_B4_R,LABEL,12.0,,,,12.0,Une chaîne de TV locale
+TEXT,SOURCES1DR_B4_R,LABEL,13.0,,,,13.0,Rien de tout cela
+TEXT,SOURCES1ER_B4_R,TITLE,,,,,,SOURCES1Er / B4_13 à 99 Chaîne TV d'info : Marques médias consommées / consultées régulièrement - Base : Questionnaire long
+TEXT,SOURCES1ER_B4_R,LABEL,1.0,,,,1.0,Franceinfo la chaîne de TV
+TEXT,SOURCES1ER_B4_R,LABEL,2.0,,,,2.0,LCI
+TEXT,SOURCES1ER_B4_R,LABEL,3.0,,,,3.0,BFM TV
+TEXT,SOURCES1ER_B4_R,LABEL,4.0,,,,4.0,CNews
+TEXT,SOURCES1ER_B4_R,LABEL,5.0,,,,5.0,France24
+TEXT,SOURCES1ER_B4_R,LABEL,6.0,,,,6.0,"Chaînes d'information internationale (Al Jazeera, CNN, BBC etc..)"
+TEXT,SOURCES1ER_B4_R,LABEL,7.0,,,,7.0,Une autre chaîne d’information internationale
+TEXT,SOURCES1ER_B4_R,LABEL,8.0,,,,8.0,Rien de tout cela
+TEXT,SOURCES1ER_B4_R,LABEL,9.0,,,,1.0,Non cité
+TEXT,SOURCES1FR_R,TITLE,,,,,,SOURCES1Fr Réseaux sociaux / Plateformes : Marques médias consommées / consultées régulièrement - Base : Questionnaire long
+TEXT,SOURCES1FR_R,LABEL,1.0,,,,1.0,Blast
+TEXT,SOURCES1FR_R,LABEL,2.0,,,,2.0,Atlantico
+TEXT,SOURCES1FR_R,LABEL,3.0,,,,3.0,Rue89
+TEXT,SOURCES1FR_R,LABEL,4.0,,,,4.0,Slate
+TEXT,SOURCES1FR_R,LABEL,5.0,,,,5.0,Linternaute
+TEXT,SOURCES1FR_R,LABEL,6.0,,,,6.0,Konbini
+TEXT,SOURCES1FR_R,LABEL,7.0,,,,7.0,Loopsider
+TEXT,SOURCES1FR_R,LABEL,8.0,,,,8.0,Brut
+TEXT,SOURCES1FR_R,LABEL,9.0,,,,9.0,AJ+
+TEXT,SOURCES1FR_R,LABEL,10.0,,,,10.0,Hugo Décrypte
+TEXT,SOURCES1FR_R,LABEL,11.0,,,,11.0,Samuel Etienne
+TEXT,SOURCES1FR_R,LABEL,12.0,,,,12.0,"Un autre créateur, créatrice de contenus (YouTube, Twitch)"
+TEXT,SOURCES1FR_R,LABEL,13.0,,,,13.0,Une autre personnalité présente sur les réseaux sociaux
+TEXT,SOURCES1FR_R,LABEL,14.0,,,,14.0,Rien de tout cela
+TEXT,TV2AR_R,TITLE,,,,,,TV2Ar / TV2_1_ Journaux TV regardés régulièrement  - Base : Questionnaire long
+TEXT,TV2AR_R,LABEL,1.0,,,,1.0,Le journal de 20h de TF1
+TEXT,TV2AR_R,LABEL,2.0,,,,1.0,Le journal de 20h de France 2
+TEXT,TV2AR_R,LABEL,3.0,,,,1.0,Le 19/20 de France 3
+TEXT,TV2AR_R,LABEL,4.0,,,,1.0,Le 19-45 (JT de M6)
+TEXT,TV2AR_R,LABEL,5.0,,,,1.0,Arte Journal
+TEXT,TV2AR_R,LABEL,6.0,,,,1.0,Le journal de 13h de TF1
+TEXT,TV2AR_R,LABEL,7.0,,,,1.0,Le journal de 13h de France 2
+TEXT,TV2AR_R,LABEL,8.0,,,,1.0,Le journal de 12h de France 3
+TEXT,TV2AR_R,LABEL,9.0,,,,1.0,Le 12-45 de M6
+TEXT,TV2AR_R,LABEL,10.0,,,,1.0,Autres
+TEXT,TV2AR_R,LABEL,11.0,,,,1.0,Rien de tout cela
+TEXT,TV2BR_R,TITLE,,,,,,TV2Br / TV2_2_ Emissions quotidiennes regardées régulièrement  - Base : Questionnaire long
+TEXT,TV2BR_R,LABEL,1.0,,,,1.0,Quotidien (TMC)
+TEXT,TV2BR_R,LABEL,2.0,,,,1.0,Touche pas à mon poste ! (C8)
+TEXT,TV2BR_R,LABEL,3.0,,,,1.0,Les grandes gueules (RMC Story)
+TEXT,TV2BR_R,LABEL,4.0,,,,1.0,C à vous (France 5)
+TEXT,TV2BR_R,LABEL,5.0,,,,1.0,L'Heure des pros (CNEWS)
+TEXT,TV2BR_R,LABEL,6.0,,,,1.0,28 minutes (Arte)
+TEXT,TV2BR_R,LABEL,7.0,,,,1.0,C'est dans l'air (France 5)
+TEXT,TV2BR_R,LABEL,8.0,,,,1.0,24h Pujadas (LCI)
+TEXT,TV2BR_R,LABEL,9.0,,,,1.0,Les informés (Franceinfo TV)
+TEXT,TV2BR_R,LABEL,10.0,,,,1.0,Télématin (France 2)
+TEXT,TV2BR_R,LABEL,11.0,,,,1.0,Première Edition (BFM TV)
+TEXT,TV2BR_R,LABEL,12.0,,,,1.0,C ce soir (France 5)
+TEXT,TV2BR_R,LABEL,13.0,,,,1.0,Autre émission quotidienne d'information
+TEXT,TV2BR_R,LABEL,14.0,,,,1.0,Rien de tout cela
+TEXT,TV2CR_R,TITLE,,,,,,TV2Cr / TV2_3_ Magazines d’informations hebdomadaires ou mensuels regardés régulièrement  - Base : Questionnaire long
+TEXT,TV2CR_R,LABEL,1.0,,,,1.0,Zone Interdite (M6)
+TEXT,TV2CR_R,LABEL,2.0,,,,1.0,Cash Investigation (France 2)
+TEXT,TV2CR_R,LABEL,3.0,,,,1.0,Capital (M6)
+TEXT,TV2CR_R,LABEL,4.0,,,,1.0,Enquête exclusive (M6)
+TEXT,TV2CR_R,LABEL,5.0,,,,1.0,Envoyé Spécial (France 2)
+TEXT,TV2CR_R,LABEL,6.0,,,,1.0,Sept à Huit (TF1)
+TEXT,TV2CR_R,LABEL,7.0,,,,1.0,Complément d'enquête (France 2)
+TEXT,TV2CR_R,LABEL,8.0,,,,1.0,66 Minutes (M6)
+TEXT,TV2CR_R,LABEL,9.0,,,,1.0,Grands reportages (TF1)
+TEXT,TV2CR_R,LABEL,10.0,,,,1.0,Autre magazine d'information
+TEXT,TV2CR_R,LABEL,11.0,,,,1.0,Rien de tout cela
+TEXT,INF1_R,TITLE,,,,,,"INF1 INF1 (Distribution et moyenne) - Base : Questionnaire long ""Voici plusieurs affirmations en lien avec l’information sur la politique, l’économie et la société, de laquelle vous sentez-vous le plus proche ? 
+Pour chacune d’elle, veuillez indiquer, à l’aide du curseur, celle qui vous correspond le plus. La graduation vous permettant de nuancer vos réponses. """
+TEXT,L_INF1_R,LABEL,1.0,1.0,,,,1
+TEXT,L_INF1_R,LABEL,2.0,2.0,,,,2
+TEXT,L_INF1_R,LABEL,3.0,3.0,,,,3
+TEXT,L_INF1_R,LABEL,4.0,4.0,,,,4
+TEXT,L_INF1_R,LABEL,5.0,5.0,,,,5
+TEXT,L_INF1_R,LABEL,6.0,6.0,,,,6
+TEXT,INF1_R_COLUMNS,LABEL,1.0,,,0.0,1.0,Je vais chercher l’information de façon volontaire / L’information vient à moi sans que je la recherche
+TEXT,INF1_R_COLUMNS,LABEL,2.0,,,0.0,2.0,"J’aime que les informations soient présentées de façon sérieuse /  J’aime que les informations soient présentées de façon drôle, décalée"
+TEXT,INF1_R_COLUMNS,LABEL,3.0,,,0.0,3.0,J’aime lorsque les informations sont traitées de façon rapide et directe / J’aime lorsque les informations sont approfondies et mettent les choses en perspective
+TEXT,INF1_R_COLUMNS,LABEL,4.0,,,0.0,4.0,"J’aime les informations présentées de façon factuelle, neutre et objective / J’aime lorsque l’information confronte des opinions engagées, des partis pris"
+TEXT,DYN1_R,TITLE,,,,,,"DYN1 Dynamique d'information - Base : Questionnaire long ""Ces derniers temps, diriez-vous que vous vous informez sur la politique, l’économie, la société et l’environnement …"""
+TEXT,DYN1_R,LABEL,1.0,,,,1.0,Beaucoup plus qu'avant
+TEXT,DYN1_R,LABEL,2.0,,,,1.0,Un peu plus qu'avant
+TEXT,DYN1_R,LABEL,3.0,,,,1.0,Autant qu'avant
+TEXT,DYN1_R,LABEL,4.0,,,,1.0,Un peu moins qu'avant
+TEXT,DYN1_R,LABEL,5.0,,,,1.0,Beaucoup moins qu'avant
+TEXT,DYN1_R,LABEL,6.0,,,,1.0,J'ai complètement arrêté de suivre l'actualité
+TEXT,DYN2_R,TITLE,,,,,,"DYN2 Raisons de moins s'informer - Base : S'informe moins et interessé·e par l'information sur la politique, l'économie, la société ou l'environement ; ""Pour quelle(s) raison(s) vous informez-vous moins ces derniers temps ?"""
+TEXT,DYN2_R,LABEL,1.0,,,,,J'ai moins de temps
+TEXT,DYN2_R,LABEL,2.0,,,,,J'ai l'impression de voir toujours la même chose
+TEXT,DYN2_R,LABEL,3.0,,,,,Je consulte moins les médias de façon générale
+TEXT,DYN2_R,LABEL,4.0,,,,,"Je trouve que l'actualité diffusée est trop négative, angoissante"
+TEXT,DYN2_R,LABEL,5.0,,,,,Les sujets qui m'intéressent ne sont pas assez couverts
+TEXT,DYN2_R,LABEL,6.0,,,,,"Je n'ai pas confiance, il y a trop de fausses informations"
+TEXT,DYN2_R,LABEL,7.0,,,,,Je préfère consacrer mon temps à d'autres choses
+TEXT,DYN2_R,LABEL,8.0,,,,,Je me sens impuissant·e face aux faits d'actualité présentés
+TEXT,DYN2_R,LABEL,9.0,,,,,Je n'arrive pas à choisir le média sur lequel m'informer
+TEXT,DYN2_R,LABEL,10.0,,,,,Autres raisons préciser :
+TEXT,DYN3_R,TITLE,,,,,,"DYN3 Raisons de plus s'informer - Base : S'informe plus et interessé·e  par l'information sur la politique, l'économie, la société ou l'environement ;""Pour quelle(s) raison(s) vous informez-vous plus ?"""
+TEXT,DYN3_R,LABEL,1.0,,,,,J'ai besoin de m'informer plus souvent pour rester à jour
+TEXT,DYN3_R,LABEL,2.0,,,,,Je multiplie les sources pour éviter d'avoir une vision partielle
+TEXT,DYN3_R,LABEL,3.0,,,,,"C'est ma responsabilité de citoyen, citoyenne"
+TEXT,DYN3_R,LABEL,4.0,,,,,"L'information est partout, il est impossible de passer à côté"
+TEXT,DYN3_R,LABEL,5.0,,,,,J'adore suivre l'actualité et il y en a de plus en plus
+TEXT,DYN3_R,LABEL,6.0,,,,,"L'actualité est complexe, j'ai besoin de la comprendre"
+TEXT,DYN3_R,LABEL,7.0,,,,,Il y a une actualité de plus en plus forte
+TEXT,DYN3_R,LABEL,8.0,,,,,Autres raisons préciser :
+TEXT,EVITE1_R,TITLE,,,,,,"EVITE1 Evitement volontaire de contact avec l'information - Base : Questionnaire long ;""Au cours des derniers mois, avez-vous évité volontairement d’être en contact avec l’actualité, les informations ?  """
+TEXT,EVITE1_R,LABEL,1.0,,,,,Oui souvent
+TEXT,EVITE1_R,LABEL,2.0,,,,,Oui parfois
+TEXT,EVITE1_R,LABEL,3.0,,,,,Non Jamais
+TEXT,EVITE2_R,TITLE,,,,,,"EVITE2 Actions mises en place pour éviter le contatct avec l'information - Base : A évité d'être en contact avec l'info et interessé·e  par l'information sur la politique, l'économie, la société ou l'environement ;""Au cours des derniers mois, avez-vous évité volontairement d’être en contact avec l’actualité, les informations ?  """
+TEXT,EVITE2_R,LABEL,1.0,,,,,Je change de chaîne ou de station de radio lorsque des actualités sont diffusées
+TEXT,EVITE2_R,LABEL,2.0,,,,,Je désactive les notifications d'actualité sur mon téléphone ou ordinateur
+TEXT,EVITE2_R,LABEL,3.0,,,,,Je n'ouvre pas certaines applications ou ne consulte pas certains sites d'informations
+TEXT,EVITE2_R,LABEL,4.0,,,,,J'évite les discussions ou débats centrés sur l'actualité
+TEXT,EVITE2_R,LABEL,5.0,,,,,Je bloque ou j'arrête de suivre certains comptes sur les réseaux sociaux
+TEXT,EVITE2_R,LABEL,6.0,,,,,Je privilégie d'autres activités
+TEXT,EVITE2_R,LABEL,7.0,,,,,"Je lis moins souvent les journaux, les magazines"
+TEXT,EVITE2_R,LABEL,8.0,,,,,Autres raisons préciser :
+TEXT,EVITE2_R,LABEL,9.0,,,,,Ne pas citer : Aucune
+TEXT,CONF1_R,TITLE,,,,,,"CONF1 Je pense que l'on peut faire confiance à la plupart des informations la plupart du temps - Base : Questionnaire long :""Veuillez nous indiquer votre niveau d'accord avec l’affirmation suivante :
+Je pense que l'on peut faire confiance à la plupart des informations la plupart du temps"""
+TEXT,CONF1_R,LABEL,1.0,,,,,Tout à fait d'accord
+TEXT,CONF1_R,LABEL,2.0,,,,,Plutôt d'accord
+TEXT,CONF1_R,LABEL,3.0,,,,,"Ni d'accord, ni pas d'accord"
+TEXT,CONF1_R,LABEL,4.0,,,,,Plutôt pas d'accord
+TEXT,CONF1_R,LABEL,5.0,,,,,Pas du tout d'accord
+TEXT,INF3_R,TITLE,,,,,,"INF3 Niveau de confiance avec les différentes personnes sources d'information - Base : Questionnaire long ; ""Quel niveau de confiance accordez-vous aux informations provenant de …"""
+TEXT,L_INF3_R,LABEL,1.0,,,,,Tout à fait confiance
+TEXT,L_INF3_R,LABEL,2.0,,,,,Plutôt confiance
+TEXT,L_INF3_R,LABEL,3.0,,,,,Plutôt pas confiance
+TEXT,L_INF3_R,LABEL,4.0,,,,,Pas du tout confiance
+TEXT,INF3_R_COLUMNS,LABEL,1.0,,,0.0,1.0,"Journalistes (de la presse écrite, radio, télévision)"
+TEXT,INF3_R_COLUMNS,LABEL,2.0,,,0.0,1.0,"Experts et expertes invités dans les médias (économistes, médecins, scientifiques, avocats, militaires …)"
+TEXT,INF3_R_COLUMNS,LABEL,3.0,,,0.0,1.0,Personnalités politiques du gouvernement
+TEXT,INF3_R_COLUMNS,LABEL,4.0,,,0.0,1.0,"Autres personnalités politiques (militants, syndicats, parlementaires, chefs de partis)"
+TEXT,INF3_R_COLUMNS,LABEL,5.0,,,0.0,1.0,"Célébrités (chanteurs, acteurs, sportifs, artistes…)"
+TEXT,INF3_R_COLUMNS,LABEL,6.0,,,0.0,1.0,"Créateurs, créatrices de contenus (Influenceurs, Youtubeurs, Streameurs, …)"
+TEXT,INF3_R_COLUMNS,LABEL,7.0,,,0.0,1.0,Associations et acteurs de terrain
+TEXT,INF3_R_COLUMNS,LABEL,8.0,,,0.0,1.0,Anonymes (posts ou commentaires sur Internet par exemple)
+TEXT,INF3_R_COLUMNS,LABEL,9.0,,,0.0,1.0,"Vos proches (familles, amis, collègues)"
+TEXT,INF3_R1,TITLE,,,,,,"INF3 Niveau de confiance avec les différentes personnes sources d'informationv - Récap "" ST Confiance""  - Base : Questionnaire long"
+TEXT,INF3_R1,LABEL,1.0,,,0.0,1.0,"Journalistes (de la presse écrite, radio, télévision)"
+TEXT,INF3_R1,LABEL,2.0,,,0.0,1.0,"Experts et expertes invités dans les médias (économistes, médecins, scientifiques, avocats, militaires …)"
+TEXT,INF3_R1,LABEL,3.0,,,0.0,1.0,Personnalités politiques du gouvernement
+TEXT,INF3_R1,LABEL,4.0,,,0.0,1.0,"Autres personnalités politiques (militants, syndicats, parlementaires, chefs de partis)"
+TEXT,INF3_R1,LABEL,5.0,,,0.0,1.0,"Célébrités (chanteurs, acteurs, sportifs, artistes…)"
+TEXT,INF3_R1,LABEL,6.0,,,0.0,1.0,"Créateurs, créatrices de contenus (Influenceurs, Youtubeurs, Streameurs, …)"
+TEXT,INF3_R1,LABEL,7.0,,,0.0,1.0,Associations et acteurs de terrain
+TEXT,INF3_R1,LABEL,8.0,,,0.0,1.0,Anonymes (posts ou commentaires sur Internet par exemple)
+TEXT,INF3_R1,LABEL,9.0,,,0.0,1.0,"Vos proches (familles, amis, collègues)"
+TEXT,INF3_R1,LABEL,10.0,,,,2.0,Aucun
+TEXT,ATTSOURCES_R,TITLE,,,,,,"ATTSOURCES Niveau de confiance en la fiabilité de l'information - Base : Questionnaire long ;""Voici une liste d’affirmations, pour chacune d’elle dites-nous si elle vous correspond Tout à fait, plutôt, plutôt pas ou pas du tout."""
+TEXT,ATTSOURCES_R,LABEL,1.0,,,,,Tout à fait d’accord
+TEXT,ATTSOURCES_R,LABEL,2.0,,,,,Plutôt d’accord
+TEXT,ATTSOURCES_R,LABEL,3.0,,,,,Plutôt pas d’accord
+TEXT,ATTSOURCES_R,LABEL,4.0,,,,,Pas du tout d’accord
+TEXT,ATTSOURCES_R_COLUMNS,LABEL,1.0,,,0.0,1.0,Il faut toujours s'informer via des sources que l'on connait
+TEXT,ATTSOURCES_R_COLUMNS,LABEL,2.0,,,0.0,1.0,On peut très bien s'intéresser à des informations sans chercher à savoir si elles sont vraies ou fausses
+TEXT,ATTSOURCES_R_COLUMNS,LABEL,3.0,,,0.0,1.0,Il y a rarement une seule vérité
+TEXT,ATTSOURCES_R_COLUMNS,LABEL,4.0,,,0.0,1.0,Les informations données par des anonymes sont aussi fiables que celles des journalistes
+TEXT,ATTSOURCES_R_COLUMNS,LABEL,5.0,,,0.0,1.0,Il faut toujours vérifier la source d'une information
+TEXT,ATTSOURCES_R_COLUMNS,LABEL,6.0,,,0.0,1.0,Les médias les plus connus sont les plus fiables
+TEXT,ATTSOURCES_R_COLUMNS,LABEL,7.0,,,0.0,1.0,Les commentaires sur les réseaux sociaux sont souvent très pertinents
+TEXT,ATTSOURCES_R1,TITLE,,,,,,"ATTSOURCES Niveau de confiance en la fiabilité de l'information - Récap "" ST D'accord""  - Base : Questionnaire long"
+TEXT,ATTSOURCES_R1,LABEL,1.0,,,0.0,1.0,Il faut toujours s'informer via des sources que l'on connait
+TEXT,ATTSOURCES_R1,LABEL,2.0,,,0.0,1.0,On peut très bien s'intéresser à des informations sans chercher à savoir si elles sont vraies ou fausses
+TEXT,ATTSOURCES_R1,LABEL,3.0,,,0.0,1.0,Il y a rarement une seule vérité
+TEXT,ATTSOURCES_R1,LABEL,4.0,,,0.0,1.0,Les informations données par des anonymes sont aussi fiables que celles des journalistes
+TEXT,ATTSOURCES_R1,LABEL,5.0,,,0.0,1.0,Il faut toujours vérifier la source d'une information
+TEXT,ATTSOURCES_R1,LABEL,6.0,,,0.0,1.0,Les médias les plus connus sont les plus fiables
+TEXT,ATTSOURCES_R1,LABEL,7.0,,,0.0,1.0,Les commentaires sur les réseaux sociaux sont souvent très pertinents
+TEXT,ATTSOURCES_R1,LABEL,8.0,,,,2.0,Aucun
+TEXT,INFOFIABLEDEF_R,TITLE,,,,,,"INFOFIABLEDEF Définition d'une information fiable  - Base : Questionnaire long ; ""Voici une liste de phrases, sélectionnez celles qui, selon vous, complètent l’affirmation suivante : 
+Je pense qu’une information est fiable quand…"""
+TEXT,INFOFIABLEDEF_R,LABEL,1.0,,,,,Je connais l'auteur
+TEXT,INFOFIABLEDEF_R,LABEL,2.0,,,,,Elle est énoncée par un journaliste
+TEXT,INFOFIABLEDEF_R,LABEL,3.0,,,,,Elle vient d'un média très connu
+TEXT,INFOFIABLEDEF_R,LABEL,4.0,,,,,Elle est claire et détaillée
+TEXT,INFOFIABLEDEF_R,LABEL,5.0,,,,,Elle confirme mes opinions
+TEXT,INFOFIABLEDEF_R,LABEL,6.0,,,,,Elle vient d'un média indépendant
+TEXT,INFOFIABLEDEF_R,LABEL,7.0,,,,,Je vois qu'elle est reprise par un grand nombre de média
+TEXT,INFOFIABLEDEF_R,LABEL,8.0,,,,,Je vois que l'information est récente ou régulièrement mise à jour
+TEXT,INFOFIABLEDEF_R,LABEL,9.0,,,,,Je peux vérifier facilement la source
+TEXT,INFOFIABLEDEF_R,LABEL,10.0,,,,,"Je ne relève pas d'erreur, d'incohérences évidentes"
+TEXT,INFOFIABLEDEF_R,LABEL,11.0,,,,,Mes proches m'en parlent
+TEXT,INFOFIABLEDEF_R,LABEL,12.0,,,,,Elle repose sur des preuves scientifiques
+TEXT,INFOFIABLEDEF_R,LABEL,13.0,,,,,Elle est accompagnée d'une vidéo montrant les événements sans filtre
+TEXT,INFOFIABLEDEF_R,LABEL,14.0,,,,,Ne pas citer :  Je ne me soucie pas trop de la fiabilité des informations
+TEXT,INFOFIABLE_R,TITLE,,,,,,"INFOFIABLE Niveau de facilité d'accès à une information fiable  - Base : Questionnaire long ; ""Personnellement, estimez-vous aujourd’hui qu’il est facile ou difficile d’avoir accès à une information fiable en France sur la politique, l’économie, la société ou l’environnement ?"""
+TEXT,INFOFIABLE_R,LABEL,1.0,,,,,Très facile
+TEXT,INFOFIABLE_R,LABEL,2.0,,,,,Plutôt facile
+TEXT,INFOFIABLE_R,LABEL,3.0,,,,,Plutôt difficile
+TEXT,INFOFIABLE_R,LABEL,4.0,,,,,Très difficile
+TEXT,OP2_R,TITLE,,,,,,"OP2 Ce qui contribue le plus à se faire une opinion sur un sujet - Base : Questionnaire long ; "". Et plus généralement, qu’est-ce qui contribue le plus à vous faire une opinion sur un sujet ?"""
+TEXT,OP2_R,LABEL,1.0,,,,,En 1er
+TEXT,OP2_R,LABEL,2.0,,,,,En 2eme
+TEXT,OP2_R,LABEL,3.0,,,,,En 3eme
+TEXT,OP2_R,LABEL,4.0,,,,,Non cités
+TEXT,OP2_R_COLUMNS,LABEL,1.0,,,,1.0,"Les informations dans les grands médias (radio, tv, presse)"
+TEXT,OP2_R_COLUMNS,LABEL,2.0,,,,2.0,Les informations sur les réseaux sociaux et les plateformes de vidéo
+TEXT,OP2_R_COLUMNS,LABEL,3.0,,,,3.0,Les discussions avec des inconnus dans la vie ou sur Internet
+TEXT,OP2_R_COLUMNS,LABEL,4.0,,,,4.0,"Les échanges avec vos proches (famille, amis, collègues, …)"
+TEXT,OP2_R1,TITLE,,,,,,"OP2 Ce qui contribue le plus à se faire une opinion sur un sujet - Récap ""Top 1"" - Base : Questionnaire long"
+TEXT,L_OP2_R1,LABEL,1.0,,,,1.0,"Les informations dans les grands médias (radio, tv, presse)"
+TEXT,L_OP2_R1,LABEL,2.0,,,,2.0,Les informations sur les réseaux sociaux et les plateformes de vidéo
+TEXT,L_OP2_R1,LABEL,3.0,,,,3.0,Les discussions avec des inconnus dans la vie ou sur Internet
+TEXT,L_OP2_R1,LABEL,4.0,,,,4.0,"Les échanges avec vos proches (famille, amis, collègues, …)"
+TEXT,L_OP2_R1,LABEL,5.0,,,,5.0,Aucun
+TEXT,OP2_R2,TITLE,,,,,,"OP2 Ce qui contribue le plus à se faire une opinion sur un sujet - Récap ""ST Top 1 à Top 3"" - Base : Questionnaire long"
+TEXT,COMPLOT1_R,TITLE,,,,,,"COMPLOT1 A déjà entendu cette affirmation ; ""Nous allons vous proposer une série de phrases concernant l’actualité. Pour chacune, dites-nous : - L’avez-vous lue, vue ou entendue ? Oui / non
+- Pensez-vous que cela est exact ? Oui / non """
+TEXT,C_COMPLOT1_R,LABEL,1.0,,,0.0,1.0,Les Américains n'ont jamais marché sur la lune
+TEXT,C_COMPLOT1_R,LABEL,2.0,,,0.0,1.0,L'épidémie Covid s'est répandue accidentellement depuis la ville de Wuhan en Chine
+TEXT,C_COMPLOT1_R,LABEL,3.0,,,0.0,1.0,Il existe un complot juif à l'échelle mondiale
+TEXT,C_COMPLOT1_R,LABEL,4.0,,,0.0,1.0,C'est la CIA qui a abattu les tours jumelles à New-York le 11 septembre
+TEXT,C_COMPLOT1_R,LABEL,5.0,,,0.0,1.0,Le gouvernement est de mèche avec l'industrie pharmaceutique pour cacher la nocivité des vaccins
+TEXT,C_COMPLOT1_R,LABEL,6.0,,,0.0,1.0,Lady Diana est décédée dans un accident de voiture sous le Pont de l'Alma
+TEXT,C_COMPLOT1_R,LABEL,7.0,,,0.0,1.0,Le réchauffement climatique actuel n'est pas causé par l'homme
+TEXT,C_COMPLOT1_R,LABEL,8.0,,,0.0,1.0,Donald Trump est le véritable vainqueur des dernières élections américaines
+TEXT,COMPLOT1_R1,TITLE,,,,,,"COMPLOT1 A déjà entendu cette affirmation - Récap ""Oui"""
+TEXT,L_COMPLOT1_R1,LABEL,1.0,1.0,,,1.0,Les Américains n'ont jamais marché sur la lune
+TEXT,L_COMPLOT1_R1,LABEL,2.0,1.0,,,1.0,L'épidémie Covid s'est répandue accidentellement depuis la ville de Wuhan en Chine
+TEXT,L_COMPLOT1_R1,LABEL,3.0,1.0,,,1.0,Il existe un complot juif à l'échelle mondiale
+TEXT,L_COMPLOT1_R1,LABEL,4.0,1.0,,,1.0,C'est la CIA qui a abattu les tours jumelles à New-York le 11 septembre
+TEXT,L_COMPLOT1_R1,LABEL,5.0,1.0,,,1.0,Le gouvernement est de mèche avec l'industrie pharmaceutique pour cacher la nocivité des vaccins
+TEXT,L_COMPLOT1_R1,LABEL,6.0,1.0,,,1.0,Lady Diana est décédée dans un accident de voiture sous le Pont de l'Alma
+TEXT,L_COMPLOT1_R1,LABEL,7.0,1.0,,,1.0,Le réchauffement climatique actuel n'est pas causé par l'homme
+TEXT,L_COMPLOT1_R1,LABEL,8.0,1.0,,,1.0,Donald Trump est le véritable vainqueur des dernières élections américaines
+TEXT,L_COMPLOT1_R1,LABEL,9.0,,,,2.0,Aucun
+TEXT,COMPLOT2_R,TITLE,,,,,,COMPLOT2 Pensez-vous que cette affirmation est exacte ?
+TEXT,COMPLOT2_R1,TITLE,,,,,,"COMPLOT2 Pensez-vous que cette affirmation est exacte ? - Récap ""Oui"""
+TEXT,COMPLOT2_R2,TITLE,,,,,,COMPLOT2 Pensez-vous que cette affirmation est exacte ? (Nombre de théories)
+TEXT,COMPLOT2_R2,LABEL,1.0,,,,1.0,Aucune théorie
+TEXT,VALEURJ_R,TITLE,,,,,,"VALEURJ Affirmations sur les journalistes et l'information - Base : Questionnaire long ; ""Concernant les affirmations suivantes, de laquelle vous sentez-vous le plus proche ? 
+Pour chacune d’elle, veuillez indiquer, à l’aide du curseur, celle qui vous correspond le plus. La graduation vous permettant de nuancer vos réponses. """
+TEXT,VALEURJ_R_COLUMNS,LABEL,1.0,,,0.0,1.0,"Je pense que les informations partagées par les citoyens sont aussi importantes que celles des journalistes  / L’information est un métier, celui des journalistes"
+TEXT,VALEURJ_R_COLUMNS,LABEL,2.0,,,0.0,2.0,Une information de qualité peut être révélée par n’importe qui /  Une information de qualité ne peut être produite que par des journalistes
+TEXT,VALEURJ_R_COLUMNS,LABEL,3.0,,,0.0,3.0,Les journalistes peuvent nuire à la démocratie / Les journalistes sont essentiels au bon fonctionnement de notre démocratie
+TEXT,VALEURJ_R_COLUMNS,LABEL,4.0,,,0.0,4.0,Les journalistes défendent toujours la pensée dominante / Les journalistes reflètent bien la diversité des opinions
+TEXT,VALEURJ_R_COLUMNS,LABEL,5.0,,,0.0,5.0,Les journalistes cherchent surtout à faire de l’audience /  Les journalistes cherchent avant tout à délivrer une information de qualité
+TEXT,ATTENTESJ_R,TITLE,,,,,,"ATTENTESJ Attentes relatives aux journalistes - Base : Questionnaire long ; ""Pour vous, les journalistes doivent …"""
+TEXT,L_ATTENTESJ_R,LABEL,1.0,,,,1.0,C'est indispensable
+TEXT,L_ATTENTESJ_R,LABEL,2.0,,,,1.0,C'est important mais pas indispensable
+TEXT,L_ATTENTESJ_R,LABEL,3.0,,,,1.0,Ce n'est pas important
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,1.0,,,,1.0,Sélectionner et hiérarchiser les informations les plus importantes
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,2.0,,,,2.0,Fournir des informations fiables et vérifiées
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,3.0,,,,3.0,Révéler les grands scandales politiques ou financiers
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,4.0,,,,4.0,Rester neutres en toutes circonstances
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,5.0,,,,5.0,Donner la parole à tout le monde y compris les minorités
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,6.0,,,,6.0,Permettre que tous les points de vue s'expriment librement
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,7.0,,,,7.0,Détecter les fausses nouvelles et lutter contre leur propagation
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,8.0,,,,8.0,Apporter des solutions aux différents problèmes
+TEXT,ATTENTESJ_R_COLUMNS,LABEL,9.0,,,,9.0,Expliquer comment ils choisissent et fabriquent les informations
+TEXT,ATTENTESJ_R1,TITLE,,,,,,"ATTENTESJ Attentes relatives aux journalistes - Récap ""ST Indispensable ou important"" - Base : Questionnaire long"
+TEXT,L_ATTENTESJ_R1,LABEL,1.0,,,,1.0,Sélectionner et hiérarchiser les informations les plus importantes
+TEXT,L_ATTENTESJ_R1,LABEL,2.0,,,,2.0,Fournir des informations fiables et vérifiées
+TEXT,L_ATTENTESJ_R1,LABEL,3.0,,,,3.0,Révéler les grands scandales politiques ou financiers
+TEXT,L_ATTENTESJ_R1,LABEL,4.0,,,,4.0,Rester neutres en toutes circonstances
+TEXT,L_ATTENTESJ_R1,LABEL,5.0,,,,5.0,Donner la parole à tout le monde y compris les minorités
+TEXT,L_ATTENTESJ_R1,LABEL,6.0,,,,6.0,Permettre que tous les points de vue s'expriment librement
+TEXT,L_ATTENTESJ_R1,LABEL,7.0,,,,7.0,Détecter les fausses nouvelles et lutter contre leur propagation
+TEXT,L_ATTENTESJ_R1,LABEL,8.0,,,,8.0,Apporter des solutions aux différents problèmes
+TEXT,L_ATTENTESJ_R1,LABEL,9.0,,,,9.0,Expliquer comment ils choisissent et fabriquent les informations
+TEXT,L_ATTENTESJ_R1,LABEL,10.0,,,,10.0,Aucun
+TEXT,ATTENTESJ_R2,TITLE,,,,,,"ATTENTESJ Attentes relatives aux journalistes - Récap ""C’est indispensable"" - Base : Questionnaire long"
+TEXT,ATTENTESJ_R3,TITLE,,,,,,"ATTENTESJ Attentes relatives aux journalistes - Récap ""C’est important mais pas indispensable"" - Base : Questionnaire long"
+TEXT,ATTENTESJ_R4,TITLE,,,,,,"ATTENTESJ Attentes relatives aux journalistes - Récap ""Ce n’est pas important"" - Base : Questionnaire long"
+TEXT,DOUTE_R,TITLE,,,,,,"DOUTE Doute de la fiabilité des informations diffusées par les médias  - Base : Questionnaire long ; ""Vous arrive-t-il de douter de la fiabilité des informations diffusées par les médias ?"""
+TEXT,DOUTE_R,LABEL,1.0,,,,,Toujours
+TEXT,DOUTE_R,LABEL,2.0,,,,,Souvent
+TEXT,DOUTE_R,LABEL,3.0,,,,,Parfois
+TEXT,DOUTE_R,LABEL,4.0,,,,,Jamais
+TEXT,DEFIANCEJ_R,TITLE,,,,,,"DEFIANCEJ Raisons de douter de la fiabilité des informations diffusées par les médias - Base : Questionnaire long ou doute ; ""Selon vous, quelles en sont les principales raisons ?"""
+TEXT,DEFIANCEJ_R,LABEL,1.0,,,,1.0,Top 1
+TEXT,DEFIANCEJ_R,LABEL,2.0,,,,1.0,Top 2
+TEXT,DEFIANCEJ_R,LABEL,3.0,,,,1.0,Top 3
+TEXT,DEFIANCEJ_R,LABEL,4.0,,,,,Non cités
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,1.0,,,,1.0,"Les journalistes ne connaissent pas bien les sujets qu'ils traitent, ils manquent de rigueur"
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,2.0,,,,2.0,"Les journalistes sont trop proches du pouvoir, des élites"
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,3.0,,,,3.0,"Les journalistes travaillent dans de mauvaises conditions (manque de temps, manque de moyens...)"
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,4.0,,,,4.0,"Les journalistes courent après les scoops, le sensationnalisme, pour plaire au public"
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,5.0,,,,5.0,"Les journalistes vivent dans une bulle, ils ne connaissent pas la vraie vie des gens"
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,6.0,,,,6.0,"Les journalistes sont soumis à la pression des propriétaires de journaux, de radio et de télévision"
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,7.0,,,,7.0,Les journalistes sont soumis à la pression des entreprises qui font de la publicité
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,8.0,,,,8.0,"Les journalistes sont soumis aux pressions politiques (gouvernement, partis politiques puissances étrangères)"
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,9.0,,,,9.0,Les journalistes défendent leur opinion au lieu de présenter des faits
+TEXT,DEFIANCEJ_R_COLUMNS,LABEL,10.0,,,,10.0,(Ne pas citer : Aucune en particulier)
+TEXT,DEFIANCEJ_R1,TITLE,,,,,,"DEFIANCEJ Raisons de douter de la fiabilité des informations diffusées par les médias - Récap ""ST Top 1 à Top 3"" - Base : Questionnaire long ou doute (1 2 3)"
+TEXT,L_DEFIANCEJ_R1,LABEL,1.0,,,,1.0,"Les journalistes ne connaissent pas bien les sujets qu'ils traitent, ils manquent de rigueur"
+TEXT,L_DEFIANCEJ_R1,LABEL,2.0,,,,2.0,"Les journalistes sont trop proches du pouvoir, des élites"
+TEXT,L_DEFIANCEJ_R1,LABEL,3.0,,,,3.0,"Les journalistes travaillent dans de mauvaises conditions (manque de temps, manque de moyens...)"
+TEXT,L_DEFIANCEJ_R1,LABEL,4.0,,,,4.0,"Les journalistes courent après les scoops, le sensationnalisme, pour plaire au public"
+TEXT,L_DEFIANCEJ_R1,LABEL,5.0,,,,5.0,"Les journalistes vivent dans une bulle, ils ne connaissent pas la vraie vie des gens"
+TEXT,L_DEFIANCEJ_R1,LABEL,6.0,,,,6.0,"Les journalistes sont soumis à la pression des propriétaires de journaux, de radio et de télévision"
+TEXT,L_DEFIANCEJ_R1,LABEL,7.0,,,,7.0,Les journalistes sont soumis à la pression des entreprises qui font de la publicité
+TEXT,L_DEFIANCEJ_R1,LABEL,8.0,,,,8.0,"Les journalistes sont soumis aux pressions politiques (gouvernement, partis politiques puissances étrangères)"
+TEXT,L_DEFIANCEJ_R1,LABEL,9.0,,,,9.0,Les journalistes défendent leur opinion au lieu de présenter des faits
+TEXT,L_DEFIANCEJ_R1,LABEL,10.0,,,,10.0,(Ne pas citer : Aucune en particulier)
+TEXT,L_DEFIANCEJ_R1,LABEL,11.0,,,,11.0,Aucun
+TEXT,DEFIANCEJ_R2,TITLE,,,,,,"DEFIANCEJ Raisons de douter de la fiabilité des informations diffusées par les médias - Récap ""Top 1"" - Base : Questionnaire long ou doute (1 2 3)"
+TEXT,CONNAISSALGOA_R,TITLE,,,,,,"CONNAISSALGOA Affirmations sur les réseaux sociaux   - Base : Utilisateur·rice des réseaux sociaux ; ""Voici une liste d’affirmations concernant l’information sur les réseaux sociaux. 
+Pour chacune, dites-nous si vous pensez que c’est vrai ou non et si cela vous convient ou vous dérange"""
+TEXT,CONNAISSALGOA_R,LABEL,1.0,,,,,Je pense que c'est exact
+TEXT,CONNAISSALGOA_R,LABEL,2.0,,,,,Je pense que c'est faux
+TEXT,C_CONNAISSALGOA_R,LABEL,1.0,,,0.0,3.0,Les réseaux sociaux choisissent de m’adresser certaines informations plutôt que d’autres
+TEXT,C_CONNAISSALGOA_R,LABEL,2.0,,,0.0,4.0,Les informations que je reçois sur les réseaux sociaux dépendent des préférences (ou choix) des autres utilisateurs
+TEXT,C_CONNAISSALGOA_R,LABEL,3.0,,,0.0,5.0,Les informations que je reçois sur les réseaux sociaux dépendent de ce que j’ai consulté ou aimé précédemment (de mon historique)
+TEXT,C_CONNAISSALGOA_R,LABEL,4.0,,,0.0,6.0,Les informations négatives ou anxiogènes sont plus souvent diffusées que les autres par les réseaux sociaux
+TEXT,C_CONNAISSALGOA_R,LABEL,5.0,,,0.0,7.0,Les réseaux sociaux diffusent à la fois des informations vraies et des informations fausses
+TEXT,C_CONNAISSALGOA_R,LABEL,6.0,,,0.0,8.0,Il est possible de signaler une fausse information sur les réseaux sociaux
+TEXT,CONNAISSALGOA_R1,TITLE,,,,,,"CONNAISSALGOA Affirmations sur les réseaux sociaux  - Récap ""C'est exact "" - Base : Utilisateur·rice des réseaux sociaux"
+TEXT,L_CONNAISSALGOA_R1,LABEL,1.0,,,0.0,1.0,Les réseaux sociaux choisissent de m’adresser certaines informations plutôt que d’autres
+TEXT,L_CONNAISSALGOA_R1,LABEL,2.0,,,0.0,2.0,Les informations que je reçois sur les réseaux sociaux dépendent des préférences (ou choix) des autres utilisateurs
+TEXT,L_CONNAISSALGOA_R1,LABEL,3.0,,,0.0,3.0,Les informations que je reçois sur les réseaux sociaux dépendent de ce que j’ai consulté ou aimé précédemment (de mon historique)
+TEXT,L_CONNAISSALGOA_R1,LABEL,4.0,,,0.0,4.0,Les informations négatives ou anxiogènes sont plus souvent diffusées que les autres par les réseaux sociaux
+TEXT,L_CONNAISSALGOA_R1,LABEL,5.0,,,0.0,5.0,Les réseaux sociaux diffusent à la fois des informations vraies et des informations fausses
+TEXT,L_CONNAISSALGOA_R1,LABEL,6.0,,,0.0,6.0,Il est possible de signaler une fausse information sur les réseaux sociaux
+TEXT,L_CONNAISSALGOA_R1,LABEL,7.0,,,,7.0,Aucun
+TEXT,CONNAISSALGOA_R2,TITLE,,,,,,"CONNAISSALGOA Affirmations sur les réseaux sociaux -Récap ""C'est faux"" - Base : Utilisateur·rice des réseaux sociaux"
+TEXT,CONNAISSALGOB_R,TITLE,,,,,,CONNAISSALGOB Accord avec les affirmations concernant l’information sur les réseaux sociaux - Base : Pense que l'affirmation est exactes et utilisateur·rice des réseaux sociaux
+TEXT,CONNAISSALGOB_R,LABEL,1.0,,,,,Cela me convient
+TEXT,CONNAISSALGOB_R,LABEL,2.0,,,,,Cela m'est égal
+TEXT,CONNAISSALGOB_R,LABEL,3.0,,,,,Cela me dérange
+TEXT,CONNAISSALGOB_R1,TITLE,,,,,,"CONNAISSALGOB Accord avec les affirmations concernant l’information sur les réseaux sociaux - Récap ""ST Cela me convient ou cela m'est égal"" - Base : Pense que l'affirmation est exactes et utilisateur·rice des réseaux sociaux"
+TEXT,CONNAISSALGOB_R2,TITLE,,,,,,"CONNAISSALGOB Accord avec les affirmations concernant l’information sur les réseaux sociaux -Récap ""Cela me convient"" - Base : Pense que l'affirmation est exactes et utilisateur·rice des réseaux sociaux"
+TEXT,CRAINTESALGOIA_R,TITLE,,,,,,"CRAINTESALGOIA Peurs vis-à-vis des réseaux sociaux Base Utilisateur·rice des réseaux sociaux ; ""Parfois, les gens expriment certaines peurs vis-à-vis des réseaux sociaux.
+Sélectionnez les 3 premières phrases qui correspondent le plus à votre situation : 
+Sur les réseaux sociaux, j’ai peur de …"""
+TEXT,CRAINTESALGOIA_R,LABEL,1.0,,,,1.0,de passer à côté d'informations importantes
+TEXT,CRAINTESALGOIA_R,LABEL,2.0,,,,2.0,d'être souvent exposé·e à des fausses informations
+TEXT,CRAINTESALGOIA_R,LABEL,3.0,,,,3.0,"d'être souvent exposé·e à des propos violents, agressifs"
+TEXT,CRAINTESALGOIA_R,LABEL,4.0,,,,4.0,que l'on me vole mes données personnelles
+TEXT,CRAINTESALGOIA_R,LABEL,5.0,,,,5.0, d'être submergé·e par l'information (ne plus pouvoir « déconnecter »)
+TEXT,CRAINTESALGOIA_R,LABEL,6.0,,,,6.0,de recevoir des informations toujours sur les mêmes sujets
+TEXT,CRAINTESALGOIA_R,LABEL,7.0,,,,7.0,de recevoir des informations provenant uniquement de personnes qui pensent comme moi
+TEXT,CRAINTESALGOIA_R,LABEL,8.0,,,,8.0,Je n'ai aucune crainte sur les réseaux sociaux
+TEXT,SELECT_R,TITLE,,,,,,"SELECT Préférence algorithme vs rédaction - Base : Utilise les réseaux sociaux au moins une fois par mois ; ""Dans les médias, les sujets présentés sont sélectionnés par une rédaction, des journalistes, tandis que sur les réseaux sociaux ce sont généralement des programmes informatiques (algorithmes) qui sélectionnent et ordonnent les informations qui vous sont présentées.
+Vous préférez qu’on vous propose des informations sélectionnées …"""
+TEXT,SELECT_R,LABEL,1.0,,,,,"Par une rédaction, des journalistes"
+TEXT,SELECT_R,LABEL,2.0,,,,,Par un programme informatique (algorithme)
+TEXT,SELECT_R,LABEL,3.0,,,,,Cela m'est égal
+TEXT,IA1_R,TITLE,,,,,,"IA1 Notoriété de l'utilisation de l'IA pour de la création de contenus ; ""Connaissez-vous les utilisations possibles de l’intelligence artificielle pour la création de contenus (articles, vidéo, images, photo, etc…) dans les médias, les réseaux sociaux et les plateformes de vidéos en ligne ?  
+On parle par exemple de la possibilité de créer des images, des vidéos, des articles de façon automatique, sans intervention humaine."""
+TEXT,IA1_R,LABEL,1.0,,,,,"Oui, tout à fait"
+TEXT,IA1_R,LABEL,2.0,,,,,Oui un peu
+TEXT,IA1_R,LABEL,3.0,,,,,Non pas vraiment
+TEXT,IA1_R,LABEL,4.0,,,,,Non pas du tout
+TEXT,OPTI_R,TITLE,,,,,,"OPTI Niveau d'optimisme concernant l'avenir ; ""Diriez-vous que vous êtes très optimiste, plutôt optimiste, plutôt pessimiste ou très pessimiste concernant l’avenir…"""
+TEXT,OPTI_R,LABEL,1.0,,,,,Très optimiste
+TEXT,OPTI_R,LABEL,2.0,,,,,Plutôt optimiste
+TEXT,OPTI_R,LABEL,3.0,,,,,Plutôt pessimiste
+TEXT,OPTI_R,LABEL,4.0,,,,,Très pessimiste
+TEXT,OPTI_R_COLUMNS,LABEL,1.0,,,,1.0,De votre situation personnelle
+TEXT,OPTI_R_COLUMNS,LABEL,2.0,,,,2.0,De la France
+TEXT,OPTI_R_COLUMNS,LABEL,3.0,,,,3.0,De l'Union Européenne
+TEXT,OPTI_R_COLUMNS,LABEL,4.0,,,,4.0,"Du climat, de l'environnement"
+TEXT,OPTI_R_COLUMNS,LABEL,5.0,,,,5.0,D'internet et des réseaux sociaux
+TEXT,OPTI_R_COLUMNS,LABEL,6.0,,,,6.0,"Des médias, des sources d'information"
+TEXT,OPTI_R1,TITLE,,,,,,"OPTI Niveau d'optimisme concernant l'avenir - Récap ""ST Optimiste"""
+TEXT,L_OPTI_R1,LABEL,1.0,,,,1.0,De votre situation personnelle
+TEXT,L_OPTI_R1,LABEL,2.0,,,,2.0,De la France
+TEXT,L_OPTI_R1,LABEL,3.0,,,,3.0,De l'Union Européenne
+TEXT,L_OPTI_R1,LABEL,4.0,,,,4.0,"Du climat, de l'environnement"
+TEXT,L_OPTI_R1,LABEL,5.0,,,,5.0,D'internet et des réseaux sociaux
+TEXT,L_OPTI_R1,LABEL,6.0,,,,6.0,"Des médias, des sources d'information"
+TEXT,L_OPTI_R1,LABEL,7.0,,,,7.0,Aucun
+TEXT,OPTI_R2,TITLE,,,,,,"OPTI Niveau d'optimisme concernant l'avenir - Récap ""ST Pessimiste"""
+TEXT,ATTA_R,TITLE,,,,,,"ATTA Niveau d'attachement à… ""Personnellement, êtes-vous très, assez, pas vraiment ou pas du tout attaché·e…"""
+TEXT,ATTA_R,LABEL,1.0,,,,,Très attaché·e
+TEXT,ATTA_R,LABEL,2.0,,,,,Assez attaché·e
+TEXT,ATTA_R,LABEL,3.0,,,,,Peu attaché·e
+TEXT,ATTA_R,LABEL,4.0,,,,,Pas du tout attaché·e
+TEXT,ATTA_R_COLUMNS,LABEL,1.0,,,,1.0,A votre pays
+TEXT,ATTA_R_COLUMNS,LABEL,2.0,,,,2.0,"A votre ville, votre village"
+TEXT,ATTA_R_COLUMNS,LABEL,3.0,,,,3.0,Au respect des règles démocratiques
+TEXT,ATTA_R_COLUMNS,LABEL,4.0,,,,4.0,A la liberté d'expression
+TEXT,ATTA_R_COLUMNS,LABEL,5.0,,,,5.0,A la diversité des opinions
+TEXT,ATTA_R_COLUMNS,LABEL,6.0,,,,6.0,A la laïcité
+TEXT,ATTA_R_COLUMNS,LABEL,7.0,,,,7.0,A la liberté de manifester
+TEXT,ATTA_R_COLUMNS,LABEL,8.0,,,,8.0,Au droit de vote
+TEXT,ATTA_R1,TITLE,,,,,,"ATTA Niveau d'attachement à… - Récap ""ST Attaché·e"""
+TEXT,L_ATTA_R1,LABEL,1.0,,,,1.0,A votre pays
+TEXT,L_ATTA_R1,LABEL,2.0,,,,2.0,"A votre ville, votre village"
+TEXT,L_ATTA_R1,LABEL,3.0,,,,3.0,Au respect des règles démocratiques
+TEXT,L_ATTA_R1,LABEL,4.0,,,,4.0,A la liberté d'expression
+TEXT,L_ATTA_R1,LABEL,5.0,,,,5.0,A la diversité des opinions
+TEXT,L_ATTA_R1,LABEL,6.0,,,,6.0,A la laïcité
+TEXT,L_ATTA_R1,LABEL,7.0,,,,7.0,A la liberté de manifester
+TEXT,L_ATTA_R1,LABEL,8.0,,,,8.0,Au droit de vote
+TEXT,L_ATTA_R1,LABEL,9.0,,,,9.0,Aucun
+TEXT,ATTA_R2,TITLE,,,,,,"ATTA Niveau d'attachement à… - Récap ""ST Pas attaché·e"""
+TEXT,DEM_R,TITLE,,,,,,"DEM Pensez-vous qu’en France aujourd’hui… "". Pensez-vous qu’en France aujourd’hui """
+TEXT,DEM_R,LABEL,1.0,,,,,Tout à fait
+TEXT,DEM_R,LABEL,2.0,,,,,Plutôt
+TEXT,DEM_R,LABEL,3.0,,,,,Plutôt pas
+TEXT,DEM_R,LABEL,4.0,,,,,Pas du tout
+TEXT,DEM_R_COLUMNS,LABEL,1.0,,,,1.0,La démocratie fonctionne bien
+TEXT,DEM_R_COLUMNS,LABEL,2.0,,,,2.0,Chacun peut exprimer librement son point de vue
+TEXT,DEM_R_COLUMNS,LABEL,3.0,,,,3.0,Les médias sont libres
+TEXT,DEM_R_COLUMNS,LABEL,4.0,,,,4.0,Tous les points de vue peuvent s'exprimer dans les médias
+TEXT,DEM_R1,TITLE,,,,,,"DEM Pensez-vous qu’en France aujourd’hui… - Récap ""ST Oui"""
+TEXT,L_DEM_R1,LABEL,1.0,,,,1.0,La démocratie fonctionne bien
+TEXT,L_DEM_R1,LABEL,2.0,,,,2.0,Chacun peut exprimer librement son point de vue
+TEXT,L_DEM_R1,LABEL,3.0,,,,3.0,Les médias sont libres
+TEXT,L_DEM_R1,LABEL,4.0,,,,4.0,Tous les points de vue peuvent s'exprimer dans les médias
+TEXT,L_DEM_R1,LABEL,5.0,,,,5.0,Aucun
+TEXT,DEM_R2,TITLE,,,,,,"DEM Pensez-vous qu’en France aujourd’hui… - Récap ""ST Non"""
+TEXT,CONFINST_R,TITLE,,,,,,"CONFINST Niveau de confiance dans… ""Dans quelle mesure avez-vous confiance dans"""
+TEXT,CONFINST_R_COLUMNS,LABEL,1.0,,,,1.0,Les hommes et les femmes politiques
+TEXT,CONFINST_R_COLUMNS,LABEL,2.0,,,,2.0,"Les juges, les magistrats·es"
+TEXT,CONFINST_R_COLUMNS,LABEL,3.0,,,,3.0,"Les policiers, policières"
+TEXT,CONFINST_R_COLUMNS,LABEL,4.0,,,,4.0,Les journalistes
+TEXT,CONFINST_R_COLUMNS,LABEL,5.0,,,,5.0,Les enseignants·es
+TEXT,CONFINST_R_COLUMNS,LABEL,6.0,,,,6.0,Le/la maire de votre commune
+TEXT,CONFINST_R_COLUMNS,LABEL,7.0,,,,7.0,Les scientifiques
+TEXT,CONFINST_R_COLUMNS,LABEL,8.0,,,,8.0,"Les patrons, patronnes de médias"
+TEXT,CONFINST_R_COLUMNS,LABEL,9.0,,,,9.0,Les dirigeants·es des réseaux sociaux
+TEXT,CONFINST_R_COLUMNS,LABEL,10.0,,,,10.0,"Les créateurs, créatrices de contenus (Youtubeurs, influenceurs, streameurs, …)"
+TEXT,CONFINST_R1,TITLE,,,,,,"CONFINST Niveau de confiance dans… - Récap ""ST Confiance"""
+TEXT,L_CONFINST_R1,LABEL,1.0,,,,1.0,Les hommes et les femmes politiques
+TEXT,L_CONFINST_R1,LABEL,2.0,,,,2.0,"Les juges, les magistrats·es"
+TEXT,L_CONFINST_R1,LABEL,3.0,,,,3.0,"Les policiers, policières"
+TEXT,L_CONFINST_R1,LABEL,4.0,,,,4.0,Les journalistes
+TEXT,L_CONFINST_R1,LABEL,5.0,,,,5.0,Les enseignants·es
+TEXT,L_CONFINST_R1,LABEL,6.0,,,,6.0,Le/la maire de votre commune
+TEXT,L_CONFINST_R1,LABEL,7.0,,,,7.0,Les scientifiques
+TEXT,L_CONFINST_R1,LABEL,8.0,,,,8.0,"Les patrons, patronnes de médias"
+TEXT,L_CONFINST_R1,LABEL,9.0,,,,9.0,Les dirigeants·es des réseaux sociaux
+TEXT,L_CONFINST_R1,LABEL,10.0,,,,10.0,"Les créateurs, créatrices de contenus (Youtubeurs, influenceurs, streameurs, …)"
+TEXT,L_CONFINST_R1,LABEL,11.0,,,,11.0,Aucun
+TEXT,CONFINST_R2,TITLE,,,,,,"CONFINST Niveau de confiance dans… - Récap ""ST Méfiance"""
+TEXT,PERS_R,TITLE,,,,,,"PERS Personnalité : ""Nous allons vous proposer une série d’affirmations en lien avec votre personnalité.
+ Pour chacune d’entre elle dites-nous si elle vous correspond ou pas :"""
+TEXT,PERS_R_COLUMNS,LABEL,1.0,,,,1.0,"J’aime être entouré·e de personnes, cultures, idées, styles de vie très différents"
+TEXT,PERS_R_COLUMNS,LABEL,2.0,,,,2.0,J’ai l’habitude de partager mes opinions
+TEXT,PERS_R_COLUMNS,LABEL,3.0,,,,3.0,"Je participe régulièrement à des discussions politiques avec mon entourage (mes amis, ma famille)"
+TEXT,PERS_R_COLUMNS,LABEL,4.0,,,,4.0,J’apprécie d’avoir plusieurs points de vue sur un même sujet
+TEXT,PERS_R_COLUMNS,LABEL,5.0,,,,5.0,Je suis capable d’échanger avec des individus qui n’ont pas la même opinion que moi
+TEXT,PERS_R_COLUMNS,LABEL,6.0,,,,6.0,Je pense que toutes les opinions doivent pouvoir s’exprimer
+TEXT,PERS_R1,TITLE,,,,,,"PERS Personnalité - Récap ""Oui"""
+TEXT,PERS_R1,LABEL,1.0,,,,1.0,"J’aime être entouré·e de personnes, cultures, idées, styles de vie très différents"
+TEXT,PERS_R1,LABEL,2.0,,,,2.0,J’ai l’habitude de partager mes opinions
+TEXT,PERS_R1,LABEL,3.0,,,,3.0,"Je participe régulièrement à des discussions politiques avec mon entourage (mes amis, ma famille)"
+TEXT,PERS_R1,LABEL,4.0,,,,4.0,J’apprécie d’avoir plusieurs points de vue sur un même sujet
+TEXT,PERS_R1,LABEL,5.0,,,,5.0,Je suis capable d’échanger avec des individus qui n’ont pas la même opinion que moi
+TEXT,PERS_R1,LABEL,6.0,,,,6.0,Je pense que toutes les opinions doivent pouvoir s’exprimer
+TEXT,PERS_R1,LABEL,7.0,,,,7.0,Aucun
+TEXT,INFLUENCE_R,TITLE,,,,,,"INFLUENCE Fréquence de sollicitation de l'avis personnel sur l'actualité ; "". Vous demande-t-on votre avis personnel sur l’actualité (politique, économie, société, environnement) … ?"""
+TEXT,INFLUENCE_R,LABEL,1.0,,,,,Très souvent
+TEXT,INFLUENCE_R,LABEL,2.0,,,,,Souvent
+TEXT,INFLUENCE_R,LABEL,3.0,,,,,De temps en temps
+TEXT,INFLUENCE_R,LABEL,4.0,,,,,Rarement
+TEXT,INFLUENCE_R,LABEL,5.0,,,,,Jamais
+TEXT,VA1_R,TITLE,,,,,,"VA1 Opinion sur des sujets clivants ; ""Nous allons vous proposer une série d’opinions. 
+Pour chacune d’elles, dites-nous si vous êtes tout à fait d’accord, plutôt d’accord, plutôt pas d’accord ou pas du tout d’accord. """
+TEXT,VA1_R,LABEL,1.0,,,,1.0,Tout à fait
+TEXT,VA1_R,LABEL,2.0,,,,1.0,Plutôt
+TEXT,VA1_R,LABEL,3.0,,,,1.0,Plutôt pas
+TEXT,VA1_R,LABEL,4.0,,,,1.0,Pas du tout
+TEXT,VA1_R,LABEL,5.0,,,,1.0,Ne sait pas
+TEXT,VA1_R_COLUMNS,LABEL,1.0,,,0.0,1.0,Il faut aller plus loin dans l'égalité homme/femme
+TEXT,VA1_R_COLUMNS,LABEL,2.0,,,0.0,1.0,Aujourd'hui il y a trop d'immigrés en France
+TEXT,VA1_R_COLUMNS,LABEL,3.0,,,0.0,1.0,"Il est important de reconnaitre la diversité des identités de genre (transgenres, non binaires)"
+TEXT,VA1_R_COLUMNS,LABEL,4.0,,,0.0,1.0,Aujourd'hui l'avortement est trop facile d'accès
+TEXT,VA1_R_COLUMNS,LABEL,5.0,,,0.0,1.0,Il est normal que les couples homosexuels puissent avoir des enfants
+TEXT,VA1_R_COLUMNS,LABEL,6.0,,,0.0,1.0,Il faut changer nos modes de vie pour lutter contre le réchauffement climatique
+TEXT,VA1_R_COLUMNS,LABEL,7.0,,,0.0,1.0,Les Israéliens portent la plus grande part de responsabilité dans la poursuite du conflit israélo-palestinien
+TEXT,VA1_R_COLUMNS,LABEL,8.0,,,0.0,1.0,Les Français juifs ne sont pas des Français comme les autres
+TEXT,VA1_R1,TITLE,,,,,,"VA1 Opinion sur des sujets clivants - Récap ""ST D'accord"""
+TEXT,L_VA1_R1,LABEL,1.0,1.0,,0.0,1.0,Il faut aller plus loin dans l'égalité homme/femme
+TEXT,L_VA1_R1,LABEL,2.0,1.0,,0.0,1.0,Aujourd'hui il y a trop d'immigrés en France
+TEXT,L_VA1_R1,LABEL,3.0,1.0,,0.0,1.0,"Il est important de reconnaitre la diversité des identités de genre (transgenres, non binaires)"
+TEXT,L_VA1_R1,LABEL,4.0,1.0,,0.0,1.0,Aujourd'hui l'avortement est trop facile d'accès
+TEXT,L_VA1_R1,LABEL,5.0,1.0,,0.0,1.0,Il est normal que les couples homosexuels puissent avoir des enfants
+TEXT,L_VA1_R1,LABEL,6.0,1.0,,0.0,1.0,Il faut changer nos modes de vie pour lutter contre le réchauffement climatique
+TEXT,L_VA1_R1,LABEL,7.0,1.0,,0.0,1.0,Les Israéliens portent la plus grande part de responsabilité dans la poursuite du conflit israélo-palestinien
+TEXT,L_VA1_R1,LABEL,8.0,1.0,,0.0,1.0,Les Français juifs ne sont pas des Français comme les autres
+TEXT,L_VA1_R1,LABEL,9.0,,,,2.0,Aucun
+TEXT,VA1_R2,TITLE,,,,,,"VA1 Opinion sur des sujets clivants - Récap ""ST Pas d'accord"""
+TEXT,NOU1_R,TITLE,,,,,,"NOU1 Orientation politique (Détail et Moyenne) : ""Sur une échelle de 0 à 10, où 0 correspond à la gauche et 10 correspond à la droite, où diriez-vous que vous vous situez ?
+0 correspond à ‘Très à gauche’ et 10 correspond à ‘Très à droite’"""
+TEXT,NOU1_R,LABEL,1.0,0.0,,,,0
+TEXT,NOU1_R,LABEL,2.0,1.0,,,,1
+TEXT,NOU1_R,LABEL,3.0,2.0,,,,2
+TEXT,NOU1_R,LABEL,4.0,3.0,,,,3
+TEXT,NOU1_R,LABEL,5.0,4.0,,,,4
+TEXT,NOU1_R,LABEL,6.0,5.0,,,,Centre
+TEXT,NOU1_R,LABEL,7.0,6.0,,,,6
+TEXT,NOU1_R,LABEL,8.0,7.0,,,,7
+TEXT,NOU1_R,LABEL,9.0,8.0,,,,8
+TEXT,NOU1_R,LABEL,10.0,9.0,,,,9
+TEXT,NOU1_R,LABEL,11.0,10.0,,,,10
+TEXT,PP3_R,TITLE,,,,,,"PP3 Vote à la présidentielle 2022 : ""Pourriez-vous nous dire pour qui vous avez voté au 1er tour de l’élection présidentielle 2022 ?"""
+TEXT,PP3_R,LABEL,1.0,,,,,Emmanuel Macron
+TEXT,PP3_R,LABEL,2.0,,,,,Valérie Pécresse
+TEXT,PP3_R,LABEL,3.0,,,,,Marine Le Pen
+TEXT,PP3_R,LABEL,4.0,,,,,Éric Zemmour
+TEXT,PP3_R,LABEL,5.0,,,,,Yannick Jadot
+TEXT,PP3_R,LABEL,6.0,,,,,Jean Luc Mélenchon
+TEXT,PP3_R,LABEL,7.0,,,,,Philipe Poutou
+TEXT,PP3_R,LABEL,8.0,,,,,Jean Lassalle
+TEXT,PP3_R,LABEL,9.0,,,,,Fabien Roussel
+TEXT,PP3_R,LABEL,10.0,,,,,Nathalie Arthaud
+TEXT,PP3_R,LABEL,11.0,,,,,Anne Hidalgo
+TEXT,PP3_R,LABEL,12.0,,,,,Nicolas Dupont Aignan
+TEXT,PP3_R,LABEL,13.0,,,,,Je me suis abstenu
+TEXT,PP3_R,LABEL,14.0,,,,,J'ai voté blanc ou nul
+TEXT,PP3_R,LABEL,15.0,,,,,Je ne suis pas inscrit sur les listes électorales
+TEXT,PP3_R,LABEL,16.0,,,,,Je ne suis pas inscrit·e sur les listes électorales
+TEXT,PP3_R,LABEL,17.0,,,,,Non réponse
+TEXT,PP3_R,LABEL,18.0,,,,,"Autre Gauche, Nathalie Arthaud ou Philppe Poutou "
+TEXT,QUIZZ1_R,TITLE,,,,,,"QUIZZ1 Israël a été récemment attaqué par… ""Pour terminer, nous vous proposons de répondre rapidement à quelques questions sur l’actualité. 
+Merci de sélectionner la réponse vous parait exacte, le plus rapidement possible sans chercher la réponse sur Internet"""
+TEXT,QUIZZ1_R,LABEL,1.0,,,,,Bonne réponse 
+TEXT,QUIZZ1_R,LABEL,2.0,,,,,La Syrie
+TEXT,QUIZZ1_R,LABEL,3.0,,,,,L'Egypte
+TEXT,QUIZZ1_R,LABEL,4.0,,,,,Je ne sais pas
+TEXT,QUIZZ2_R,TITLE,,,,,,QUIZZ2 Le premier ministre anglais s’appelle…
+TEXT,QUIZZ2_R,LABEL,1.0,,,,,Bonne réponse 
+TEXT,QUIZZ2_R,LABEL,2.0,,,,,David Cameron
+TEXT,QUIZZ2_R,LABEL,3.0,,,,,Theresa May
+TEXT,QUIZZ2_R,LABEL,4.0,,,,,Je ne sais pas
+TEXT,QUIZZ3_R,TITLE,,,,,,QUIZZ3 Le mandat actuel d’Emmanuel Macron se termine en…
+TEXT,QUIZZ3_R,LABEL,1.0,,,,,Bonne réponse 
+TEXT,QUIZZ3_R,LABEL,2.0,,,,,2026
+TEXT,QUIZZ3_R,LABEL,3.0,,,,,2030
+TEXT,QUIZZ3_R,LABEL,4.0,,,,,Je ne sais pas
+TEXT,QUIZZ4_R,TITLE,,,,,,"QUIZZ4 En moyenne annuelle, en 2023 le taux d’inflation en France est de…"
+TEXT,QUIZZ4_R,LABEL,1.0,,,,,Bonne réponse 
+TEXT,QUIZZ4_R,LABEL,2.0,,,,,"0,02"
+TEXT,QUIZZ4_R,LABEL,3.0,,,,,"0,12"
+TEXT,QUIZZ4_R,LABEL,4.0,,,,,Je ne sais pas
